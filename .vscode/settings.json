@@ -1,0 +1,7 @@
+{
+"editor.quickSuggestions": true,
+"editor.suggest.insertMode": "replace",
+"typescript.suggest.completeFunctionCalls": true,
+"editor.tabCompletion": "on",
+"javascript.suggest.completeFunctionCalls": true,
+}
