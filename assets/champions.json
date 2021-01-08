@@ -1,62 +1,466 @@
 [
   {
-    "name": "Aatrox",
-    "championId": "TFT4_Aatrox",
+    "ability": {
+      "desc": "Aatrox pulls @NumberOfTargets@ of the farthest enemies toward himself, then slams the ground in front of himself, dealing @ModifiedDamage@ magic damage to all enemies hit.",
+      "icon": "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_W.dds",
+      "name": "Infernal Chains",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            0,
+            250,
+            450,
+            1250,
+            1200,
+            1250,
+            1500
+          ]
+        },
+        {
+          "name": "NumberOfTargets",
+          "value": [
+            0.5,
+            2,
+            2,
+            5,
+            8,
+            16,
+            32
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Aatrox",
     "cost": 4,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Aatrox.TFT_Set4.dds",
+    "name": "Aatrox",
+    "stats": {
+      "armor": 40,
+      "attackSpeed": 0.6499999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 60,
+      "hp": 800,
+      "initialMana": 75,
+      "magicResist": 40,
+      "mana": 150,
+      "range": 1
+    },
     "traits": [
       "Cultist",
-      "Set4_Vanguard"
+      "Vanguard"
     ]
   },
   {
-    "name": "Ahri",
-    "championId": "TFT4_Ahri",
+    "ability": {
+      "desc": "Ahri channels energy into her spirit orb for @CastTime@ seconds, then lobs it toward a random enemy, dealing @ModifiedDamage@ magic damage to all enemies in a large area.<br><br>If Ahri is interrupted, she releases her orb early reducing the size of the impact area.",
+      "icon": "ASSETS/Characters/Ahri/HUD/Icons2D/Ahri_SoulEater2.dds",
+      "name": "Spirit Bomb",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            0,
+            500,
+            700,
+            3000,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "CastTime",
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ]
+        },
+        {
+          "name": "MinDamagePercent",
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Ahri",
     "cost": 4,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Ahri.TFT_Set4.dds",
+    "name": "Ahri",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 40,
+      "hp": 600,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 80,
+      "range": 4
+    },
     "traits": [
-      "Set4_Spirit",
-      "Set4_Mage"
+      "Spirit",
+      "Mage"
     ]
   },
   {
-    "name": "Akali",
-    "championId": "TFT4_Akali",
+    "ability": {
+      "desc": "Akali throws kunai at her target, dealing @ModifiedDamage@ magic damage.",
+      "icon": "ASSETS/Characters/Akali/HUD/Icons2D/Akali_Q.dds",
+      "name": "Five Point Strike",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            20,
+            175,
+            250,
+            400,
+            500,
+            620,
+            740
+          ]
+        },
+        {
+          "name": "ConeDeg",
+          "value": [
+            30,
+            30,
+            30,
+            30,
+            30,
+            30,
+            30
+          ]
+        },
+        {
+          "name": "HexRange",
+          "value": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Akali",
     "cost": 3,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Akali.TFT_Set4.dds",
+    "name": "Akali",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.8500000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 55,
+      "hp": 650,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 20,
+      "range": 1
+    },
     "traits": [
-      "Set4_Ninja",
-      "Set4_Assassin"
+      "Ninja",
+      "Assassin"
     ]
   },
   {
-    "name": "Annie",
-    "championId": "TFT4_Annie",
+    "ability": {
+      "desc": "Annie blasts a cone of fire, dealing @ModifiedDamage@ magic damage to enemies in front of her, then creates a Shield with @ModifiedShield@ health on herself for @ShieldDuration@ seconds.",
+      "icon": "ASSETS/Characters/Annie/HUD/Icons2D/Annie_E.dds",
+      "name": "Burst Shield",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            100,
+            250,
+            350,
+            450,
+            450,
+            450,
+            450
+          ]
+        },
+        {
+          "name": "ShieldAmount",
+          "value": [
+            200,
+            500,
+            700,
+            900,
+            700,
+            450,
+            450
+          ]
+        },
+        {
+          "name": "ShieldDuration",
+          "value": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Annie",
     "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Annie.TFT_Set4.dds",
+    "name": "Annie",
+    "stats": {
+      "armor": 40,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 45,
+      "hp": 750,
+      "initialMana": 0,
+      "magicResist": 40,
+      "mana": 65,
+      "range": 2
+    },
     "traits": [
       "Fortune",
-      "Set4_Mage"
+      "Mage"
     ]
   },
   {
-    "name": "Aphelios",
-    "championId": "TFT4_Aphelios",
+    "ability": {
+      "desc": "Aphelios summons a turret for @ModifiedDuration@ seconds. An extension of his will, the turret deals damage as Aphelios, applies Aphelios' on-hit effects, and dies when Aphelios dies.",
+      "icon": "ASSETS/Characters/Aphelios/HUD/Icons2D/Q_Crescendum.dds",
+      "name": "Sentry Turret",
+      "variables": [
+        {
+          "name": "Duration",
+          "value": [
+            0,
+            7,
+            8,
+            9,
+            11,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Aphelios",
     "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Aphelios.TFT_Set4.dds",
+    "name": "Aphelios",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 45,
+      "hp": 500,
+      "initialMana": 50,
+      "magicResist": 20,
+      "mana": 80,
+      "range": 4
+    },
     "traits": [
       "Moonlight",
       "Hunter"
     ]
   },
   {
-    "name": "Ashe",
-    "championId": "TFT4_Ashe",
+    "ability": {
+      "desc": "Ashe gains @ModifiedAS@ Attack Speed for @Duration@ seconds, and her attacks fire a flurry of arrows for @ModifiedADDamage@ physical damage.",
+      "icon": "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_Q_active.dds",
+      "name": "Hunter's Focus",
+      "variables": [
+        {
+          "name": "Duration",
+          "value": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "AttackSpeed",
+          "value": [
+            0.25,
+            0.44999998807907104,
+            0.6499999761581421,
+            3,
+            1.25,
+            1.5,
+            1.75
+          ]
+        },
+        {
+          "name": "PercentADPerArrow",
+          "value": [
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104,
+            0.44999998807907104
+          ]
+        },
+        {
+          "name": "NumArrows",
+          "value": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Ashe",
     "cost": 4,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Ashe.TFT_Set4.dds",
+    "name": "Ashe",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 80,
+      "hp": 600,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 30,
+      "range": 4
+    },
     "traits": [
-      "Set4_Elderwood",
+      "Elderwood",
       "Hunter"
     ]
   },
   {
-    "name": "Azir",
-    "championId": "TFT4_Azir",
+    "ability": {
+      "desc": "Azir calls forth a wall of charging soldiers from behind him, dealing @ModifiedDamage@ magic damage to and slowing all enemies hit for @SlowDuration@ seconds. Enemies close to Azir are knocked back, while enemies further away are knocked up for @KnockupDuration@ seconds. ",
+      "icon": "ASSETS/Characters/Azir/HUD/Icons2D/Azir_R.dds",
+      "name": "Emperor's Divide",
+      "variables": [
+        {
+          "name": "WallDuration",
+          "value": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "WallDamage",
+          "value": [
+            250,
+            200,
+            350,
+            8888,
+            525,
+            650,
+            775
+          ]
+        },
+        {
+          "name": "WallLength",
+          "value": [
+            2100,
+            2100,
+            2100,
+            2100,
+            2100,
+            2100,
+            2100
+          ]
+        },
+        {
+          "name": "WallWidth",
+          "value": [
+            450,
+            450,
+            450,
+            450,
+            450,
+            450,
+            450
+          ]
+        },
+        {
+          "name": "KnockupDuration",
+          "value": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "SlowDuration",
+          "value": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Azir",
     "cost": 5,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Azir.TFT_Set4.dds",
+    "name": "Azir",
+    "stats": {
+      "armor": 30,
+      "attackSpeed": 0.8500000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 70,
+      "hp": 950,
+      "initialMana": 75,
+      "magicResist": 20,
+      "mana": 150,
+      "range": 4
+    },
     "traits": [
       "Warlord",
       "Keeper",
@@ -64,466 +468,3406 @@
     ]
   },
   {
-    "name": "Cassiopeia",
-    "championId": "TFT4_Cassiopeia",
+    "ability": {
+      "desc": "Cassiopeia projects a cone of magic energy at her target, dealing @ModifiedDamage@ magic damage to all enemies hit, stunning them for @StunDuration@ seconds, and causing them to take @ModifiedDamageAmp@ increased damage while stunned.",
+      "icon": "ASSETS/Characters/Cassiopeia/HUD/Icons2D/Cassiopeia_R.dds",
+      "name": "Petrifying Gaze",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            75,
+            275,
+            400,
+            2000,
+            1200,
+            2400,
+            4800
+          ]
+        },
+        {
+          "name": "StunDuration",
+          "value": [
+            1.75,
+            2.5,
+            3,
+            5,
+            4.75,
+            5.5,
+            6.25
+          ]
+        },
+        {
+          "name": "DamageAmp",
+          "value": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ]
+        },
+        {
+          "name": "ConeLength",
+          "value": [
+            800,
+            800,
+            800,
+            800,
+            800,
+            800,
+            800
+          ]
+        },
+        {
+          "name": "ConeWidth",
+          "value": [
+            35,
+            35,
+            35,
+            35,
+            35,
+            35,
+            35
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Cassiopeia",
     "cost": 4,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Cassiopeia.TFT_Set4.dds",
+    "name": "Cassiopeia",
+    "stats": {
+      "armor": 30,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 55,
+      "hp": 750,
+      "initialMana": 80,
+      "magicResist": 20,
+      "mana": 150,
+      "range": 2
+    },
     "traits": [
       "Dusk",
-      "Set4_Mystic"
+      "Mystic"
     ]
   },
   {
-    "name": "Diana",
-    "championId": "TFT4_Diana",
+    "ability": {
+      "desc": "Diana shields herself against @ModifiedShield@ damage over @ShieldDuration@ seconds and summons @Orbs@ orbs to orbit around her. These orbs explode for @ModifiedDamage@ magic damage when they hit an enemy, refreshing her Shield when the final one explodes.",
+      "icon": "ASSETS/Characters/Diana/HUD/Icons2D/Diana_W_LunarShower.dds",
+      "name": "Pale Cascade",
+      "variables": [
+        {
+          "name": "Orbs",
+          "value": [
+            2,
+            4,
+            5,
+            6,
+            8,
+            7,
+            8
+          ]
+        },
+        {
+          "name": "OrbDamage",
+          "value": [
+            60,
+            70,
+            80,
+            90,
+            100,
+            110,
+            120
+          ]
+        },
+        {
+          "name": "ShieldValue",
+          "value": [
+            50,
+            200,
+            300,
+            400,
+            500,
+            550,
+            650
+          ]
+        },
+        {
+          "name": "ShieldDuration",
+          "value": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Diana",
     "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Diana.TFT_Set4.dds",
+    "name": "Diana",
+    "stats": {
+      "armor": 30,
+      "attackSpeed": 0.6499999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 50,
+      "hp": 500,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 70,
+      "range": 1
+    },
     "traits": [
       "Moonlight",
-      "Set4_Assassin"
+      "Assassin"
     ]
   },
   {
+    "ability": {
+      "desc": "Elise transforms into a spider, gaining @ModifiedPercentHealth@ maximum Health and causing her attacks to restore @ModifiedLifesteal@ Health.",
+      "icon": "ASSETS/Characters/Elise/HUD/Icons2D/EliseR.DDS",
+      "name": "Spider Form",
+      "variables": [
+        {
+          "name": "Lifesteal",
+          "value": [
+            0,
+            40,
+            80,
+            160,
+            160,
+            200,
+            240
+          ]
+        },
+        {
+          "name": "PercentHealth",
+          "value": [
+            0.30000001192092896,
+            0.3499999940395355,
+            0.4000000059604645,
+            0.45000001788139343,
+            0.5,
+            0.550000011920929,
+            0.6000000238418579
+          ]
+        },
+        {
+          "name": "SpiderFormDuration",
+          "value": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Elise",
+    "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Elise.TFT_Set4.dds",
     "name": "Elise",
-    "championId": "TFT4_Elise",
-    "cost": 1,
+    "stats": {
+      "armor": 30,
+      "attackSpeed": 0.6499999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 45,
+      "hp": 600,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 75,
+      "range": 2
+    },
     "traits": [
       "Cultist",
       "Keeper"
     ]
   },
   {
+    "ability": {
+      "desc": "Evelynn deals @ModifiedDamage@ magic damage to up to 3 nearby enemies, then teleports away.<br><br>This damage is increased to @ModifiedCritDamage@ against targets below @ExecuteThreshholdPercent@ Health.",
+      "icon": "ASSETS/Characters/Evelynn/HUD/Icons2D/Evelynn_R.dds",
+      "name": "Last Caress",
+      "variables": [
+        {
+          "name": "CritMultiplier",
+          "value": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ]
+        },
+        {
+          "name": "CritThreshold",
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "Damage",
+          "value": [
+            100,
+            350,
+            600,
+            1500,
+            500,
+            600,
+            700
+          ]
+        },
+        {
+          "name": "BlinkBackDistance",
+          "value": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Evelynn",
+    "cost": 3,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Evelynn.TFT_Set4.dds",
     "name": "Evelynn",
-    "championId": "TFT4_Evelynn",
-    "cost": 3,
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.699999988079071,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 70,
+      "hp": 600,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 60,
+      "range": 1
+    },
     "traits": [
       "Cultist",
-      "Set4_Shade"
+      "Shade"
     ]
   },
   {
-    "name": "Ezreal",
-    "championId": "TFT4_Ezreal",
-    "cost": 5,
-    "traits": [
-      "Set4_Elderwood",
-      "Set4_Dazzler"
-    ]
-  },
-  {
+    "ability": {
+      "desc": "Fiora enters a defensive stance for @BlockDuration@ seconds, becoming immune to damage and enemy spell effects. Afterwards, she strikes, dealing @ModifiedDamage@ magic damage to a nearby enemy and stunning them for @StunDuration@ seconds.",
+      "icon": "ASSETS/Characters/Fiora/HUD/Icons2D/Fiora_R_Heal.dds",
+      "name": "Riposte",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            0,
+            250,
+            400,
+            600,
+            600,
+            750,
+            900
+          ]
+        },
+        {
+          "name": "StunDuration",
+          "value": [
+            1.5,
+            1.5,
+            2,
+            3,
+            1.5,
+            1.5,
+            1.5
+          ]
+        },
+        {
+          "name": "BlockDuration",
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Fiora",
+    "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Fiora.TFT_Set4.dds",
     "name": "Fiora",
-    "championId": "TFT4_Fiora",
-    "cost": 1,
+    "stats": {
+      "armor": 35,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 45,
+      "hp": 600,
+      "initialMana": 0,
+      "magicResist": 30,
+      "mana": 75,
+      "range": 1
+    },
     "traits": [
-      "Set4_Enlightened",
+      "Enlightened",
       "Duelist"
     ]
   },
   {
+    "ability": {
+      "desc": "Garen spins his sword for @SpinDuration@ seconds, dealing @ModifiedDamage@ magic damage to nearby enemies and reducing incoming magic damage by @MagicDamageReduction*100@% over the duration.",
+      "icon": "ASSETS/Characters/Garen/HUD/Icons2D/Garen_E1.dds",
+      "name": "Judgement",
+      "variables": [
+        {
+          "name": "SpinDuration",
+          "value": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "name": "ETotalTicks",
+          "value": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+          ]
+        },
+        {
+          "name": "DamagePerTick",
+          "value": [
+            15,
+            50,
+            75,
+            125,
+            115,
+            140,
+            165
+          ]
+        },
+        {
+          "name": "MagicDamageReduction",
+          "value": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Garen",
+    "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Garen.TFT_Set4.dds",
     "name": "Garen",
-    "championId": "TFT4_Garen",
-    "cost": 1,
+    "stats": {
+      "armor": 50,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 50,
+      "hp": 600,
+      "initialMana": 0,
+      "magicResist": 35,
+      "mana": 100,
+      "range": 1
+    },
     "traits": [
       "Warlord",
-      "Set4_Vanguard"
+      "Vanguard"
     ]
   },
   {
+    "ability": {
+      "desc": "Hecarim creates an aura around him for @Duration@ seconds. Each enemy within takes @ModifiedDamage@ magic damage, and heals Hecarim for @ModifiedHealing@, over the duration.",
+      "icon": "ASSETS/Characters/Hecarim/HUD/Icons2D/Hecarim_SpiritofDread.dds",
+      "name": "Spirit Of Life",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            40,
+            250,
+            400,
+            600,
+            520,
+            640,
+            760
+          ]
+        },
+        {
+          "name": "Healing",
+          "value": [
+            40,
+            250,
+            400,
+            600,
+            520,
+            640,
+            760
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "Radius",
+          "value": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "TickRate",
+          "value": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Hecarim",
+    "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Hecarim.TFT_Set4.dds",
     "name": "Hecarim",
-    "championId": "TFT4_Hecarim",
-    "cost": 2,
+    "stats": {
+      "armor": 45,
+      "attackSpeed": 0.550000011920929,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 55,
+      "hp": 750,
+      "initialMana": 0,
+      "magicResist": 30,
+      "mana": 110,
+      "range": 1
+    },
     "traits": [
-      "Set4_Elderwood",
-      "Set4_Vanguard"
+      "Elderwood",
+      "Vanguard"
     ]
   },
   {
+    "ability": {
+      "desc": "Irelia launches a storm of blades in front of her, dealing @ModifiedDamage@ magic damage and disarming enemies for @DisarmDuration@ seconds.",
+      "icon": "ASSETS/Characters/Irelia/HUD/Icons2D/Irelia_R.dds",
+      "name": "Bladestorm",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            100,
+            200,
+            300,
+            550,
+            1600,
+            3200,
+            6400
+          ]
+        },
+        {
+          "name": "DisarmDuration",
+          "value": [
+            2,
+            2.5,
+            3,
+            3.5,
+            4,
+            4.5,
+            5
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Irelia",
+    "cost": 3,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Irelia.TFT_Set4.dds",
     "name": "Irelia",
-    "championId": "TFT4_Irelia",
-    "cost": 3,
+    "stats": {
+      "armor": 40,
+      "attackSpeed": 0.6499999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 55,
+      "hp": 800,
+      "initialMana": 50,
+      "magicResist": 40,
+      "mana": 100,
+      "range": 1
+    },
     "traits": [
-      "Set4_Enlightened",
+      "Enlightened",
       "Divine",
-      "Set4_Adept"
+      "Adept"
     ]
   },
   {
+    "ability": {
+      "desc": "Janna shields her @NumAllies@ lowest-Health allies for @ModifiedShieldAmount@ for @Duration@ seconds. Shielded allies also gain @ShieldAD@ Attack Damage for that duration.",
+      "icon": "ASSETS/Characters/Janna/HUD/Icons2D/Janna_Zephyr.dds",
+      "name": "Eye of the Storm",
+      "variables": [
+        {
+          "name": "NumAllies",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "name": "ShieldAmount",
+          "value": [
+            0,
+            250,
+            300,
+            400,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            0,
+            4,
+            4,
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "ShieldAD",
+          "value": [
+            0,
+            20,
+            30,
+            60,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Janna",
+    "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Janna.TFT_Set4.dds",
     "name": "Janna",
-    "championId": "TFT4_Janna",
-    "cost": 2,
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 40,
+      "hp": 550,
+      "initialMana": 30,
+      "magicResist": 20,
+      "mana": 60,
+      "range": 4
+    },
     "traits": [
-      "Set4_Enlightened",
-      "Set4_Mystic"
+      "Enlightened",
+      "Mystic"
     ]
   },
   {
-    "name": "Jarvan IV",
-    "championId": "TFT4_JarvanIV",
-    "cost": 2,
+    "ability": {
+      "desc": "Passive: Jhin always attacks @AttackSpeed@ times per second. He converts each 1% of bonus Attack Speed into @ADFromAttackSpeed@ Attack Damage.<br><br>Passive: Every fourth shot, Jhin deals @ModifiedPercent@ of his Attack Damage. (Total: @TooltipDamage@)",
+      "icon": "ASSETS/Characters/Jhin/HUD/Icons2D/Jhin_P.dds",
+      "name": "Whisper",
+      "variables": [
+        {
+          "name": "PercentOfAD",
+          "value": [
+            0,
+            4.440000057220459,
+            5,
+            12.34000015258789,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "AttackSpeed",
+          "value": [
+            0,
+            0.8500000238418579,
+            0.8999999761581421,
+            1.2000000476837158,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "ADFromAttackSpeed",
+          "value": [
+            0,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Jhin",
+    "cost": 4,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Jhin.TFT_Set4.dds",
+    "name": "Jhin",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 2,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 100,
+      "hp": 600,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 4,
+      "range": 4
+    },
     "traits": [
-      "Warlord",
-      "Keeper"
+      "Cultist",
+      "Sharpshooter"
     ]
   },
   {
+    "ability": {
+      "desc": "Jax dodges all incoming attacks for @Duration@ seconds, then strikes all nearby enemies, dealing @ModifiedDamage@ magic damage and stunning them for @StunDuration@ seconds.",
+      "icon": "ASSETS/Characters/Jax/HUD/Icons2D/Armsmaster_CoupDeGrace.dds",
+      "name": "Counter Strike",
+      "variables": [
+        {
+          "name": "Duration",
+          "value": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "Damage",
+          "value": [
+            50,
+            150,
+            250,
+            450,
+            500,
+            500,
+            500
+          ]
+        },
+        {
+          "name": "AttackRadius",
+          "value": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "StunDuration",
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Jax",
+    "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Jax.TFT_Set4.dds",
     "name": "Jax",
-    "championId": "TFT4_Jax",
-    "cost": 2,
+    "stats": {
+      "armor": 40,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 60,
+      "hp": 750,
+      "initialMana": 60,
+      "magicResist": 30,
+      "mana": 110,
+      "range": 1
+    },
     "traits": [
       "Divine",
       "Duelist"
     ]
   },
   {
-    "name": "Jhin",
-    "championId": "TFT4_Jhin",
-    "cost": 4,
-    "traits": [
-      "Cultist",
-      "Sharpshooter"
-    ]
-  },
-  {
-    "name": "Jinx",
-    "championId": "TFT4_Jinx",
+    "ability": {
+      "desc": "Jinx fires a rocket at her target that explodes on impact, damaging all nearby enemies for @ModifiedDamage@ magic damage and stunning them for @StunDuration@ seconds.",
+      "icon": "ASSETS/Characters/Jinx/HUD/Icons2D/Jinx_Q1.dds",
+      "name": "Fishbones",
+      "variables": [
+        {
+          "name": "RocketDamage",
+          "value": [
+            0,
+            150,
+            250,
+            450,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "StunDuration",
+          "value": [
+            0,
+            1.5,
+            2,
+            2.5,
+            2,
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Jinx",
     "cost": 3,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Jinx.TFT_Set4.dds",
+    "name": "Jinx",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 75,
+      "hp": 650,
+      "initialMana": 70,
+      "magicResist": 20,
+      "mana": 120,
+      "range": 4
+    },
     "traits": [
       "Fortune",
       "Sharpshooter"
     ]
   },
   {
-    "name": "Kalista",
-    "championId": "TFT4_Kalista",
+    "ability": {
+      "desc": "Passive: Kalista's spears remain in her target, each one capable of dealing @ModifiedDamage@ of the target's maximum Health in magic damage when removed. She removes the spears when doing so would kill the target.",
+      "icon": "ASSETS/Characters/Kalista/HUD/Icons2D/Kalista_E.dds",
+      "name": "Rend",
+      "variables": [
+        {
+          "name": "PercentHealthDamage",
+          "value": [
+            0.019999999552965164,
+            0.03999999910593033,
+            0.05999999865889549,
+            0.09000000357627869,
+            0.10000000149011612,
+            0.11999999731779099,
+            0.14000000059604645
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Kalista",
     "cost": 3,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Kalista.TFT_Set4.dds",
+    "name": "Kalista",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.8999999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 65,
+      "hp": 550,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 0,
+      "range": 3
+    },
     "traits": [
       "Cultist",
       "Duelist"
     ]
   },
   {
-    "name": "Katarina",
-    "championId": "TFT4_Katarina",
+    "ability": {
+      "desc": "Kennen summons a storm around himself for @Duration@ seconds, calling down lightning bolts on all enemies in the area every @TickRate@ second and dealing @ModifiedDamage@ magic damage over the duration. Each enemy struck by 3 lightning bolts is stunned for @StunDuration@ seconds.",
+      "icon": "ASSETS/Characters/Kennen/HUD/Icons2D/Kennen_R.dds",
+      "name": "Slicing Maelstrom",
+      "variables": [
+        {
+          "name": "TickRate",
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "Damage",
+          "value": [
+            0,
+            300,
+            450,
+            1200,
+            700,
+            875,
+            1050
+          ]
+        },
+        {
+          "name": "StunDuration",
+          "value": [
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5,
+            1.5
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Kennen",
     "cost": 3,
-    "traits": [
-      "Warlord",
-      "Fortune",
-      "Set4_Assassin"
-    ]
-  },
-  {
-    "name": "Kayn",
-    "championId": "TFT4_Kayn",
-    "cost": 5,
-    "traits": [
-      "Set4_Tormented",
-      "Set4_Shade"
-    ]
-  },
-  {
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Kennen.TFT_Set4.dds",
     "name": "Kennen",
-    "championId": "TFT4_Kennen",
-    "cost": 3,
+    "stats": {
+      "armor": 30,
+      "attackSpeed": 0.6499999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 60,
+      "hp": 650,
+      "initialMana": 50,
+      "magicResist": 30,
+      "mana": 125,
+      "range": 2
+    },
     "traits": [
-      "Set4_Ninja",
+      "Ninja",
       "Keeper"
     ]
   },
   {
-    "name": "Kindred",
-    "championId": "TFT4_Kindred",
+    "ability": {
+      "desc": "Wolf mauls Kindred's target, dealing @ModifiedDamage@ magic damage and reducing their healing by 50% for @GrievousWoundsDuration@ seconds. Meanwhile, Lamb leaps away from Kindred's target.",
+      "icon": "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_E.dds",
+      "name": "Dance of Dread",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            100,
+            450,
+            650,
+            1000,
+            650,
+            650,
+            650
+          ]
+        },
+        {
+          "name": "HexRange",
+          "value": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "GrievousWoundsDuration",
+          "value": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Kindred",
     "cost": 3,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Kindred.TFT_Set4.dds",
+    "name": "Kindred",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.800000011920929,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 70,
+      "hp": 650,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 35,
+      "range": 3
+    },
     "traits": [
-      "Set4_Spirit",
+      "Spirit",
       "Hunter"
     ]
   },
   {
-    "name": "Lee Sin",
-    "championId": "TFT4_LeeSin",
+    "ability": {
+      "desc": "Lee Sin punches his target, dealing @ModifiedDamage@ magic damage, knocking them back to the edge of the battlefield, and stunning them for @PrimaryStunDuration@ seconds. Any enemies the target collides with during the knockback receive half the damage and are stunned for @SecondaryStunDuration@ second.<br><br>If the target cannot be pushed back any further, they are knocked out of the battlefield instead, removing them from combat.<br><br>If the target is still alive after being punched, Lee Sin will dash to them.",
+      "icon": "ASSETS/Characters/LeeSin/HUD/Icons2D/BlindMonkR.dds",
+      "name": "God Fist",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            0,
+            250,
+            450,
+            1000,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "PrimaryStunDuration",
+          "value": [
+            0,
+            2,
+            3,
+            10,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "SecondaryStunDuration",
+          "value": [
+            0,
+            1,
+            1,
+            10,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_LeeSin",
     "cost": 5,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_LeeSin.TFT_Set4.dds",
+    "name": "Lee Sin",
+    "stats": {
+      "armor": 50,
+      "attackSpeed": 0.8500000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 60,
+      "hp": 1000,
+      "initialMana": 0,
+      "magicResist": 50,
+      "mana": 40,
+      "range": 1
+    },
     "traits": [
       "Divine",
       "Duelist"
     ]
   },
   {
-    "name": "Lillia",
-    "championId": "TFT4_Lillia",
+    "ability": {
+      "desc": "Lillia casts a magical lullaby, causing @NumTargets@ waking enemies with the highest current Health to fall asleep for @Duration@ seconds. Enemies will awaken if they take @BreakDamage@ damage while sleeping, causing an additional @ModifiedDamage@ magic damage.",
+      "icon": "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_Icon_R.Lillia.dds",
+      "name": "Lilting Lullaby",
+      "variables": [
+        {
+          "name": "NumTargets",
+          "value": [
+            0,
+            2,
+            3,
+            10,
+            4000,
+            8000,
+            16000
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            2.5,
+            3,
+            4,
+            8,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "BreakDamage",
+          "value": [
+            0,
+            500,
+            500,
+            500,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Damage",
+          "value": [
+            0,
+            500,
+            750,
+            5000,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Lillia",
     "cost": 5,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Lillia.TFT_Set4.dds",
+    "name": "Lillia",
+    "stats": {
+      "armor": 50,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 40,
+      "hp": 950,
+      "initialMana": 80,
+      "magicResist": 80,
+      "mana": 120,
+      "range": 2
+    },
     "traits": [
       "Dusk",
-      "Set4_Mage"
+      "Mage"
     ]
   },
   {
-    "name": "Lissandra",
-    "championId": "TFT4_Lissandra",
-    "cost": 1,
-    "traits": [
-      "Moonlight",
-      "Set4_Dazzler"
-    ]
-  },
-  {
-    "name": "Lulu",
-    "championId": "TFT4_Lulu",
+    "ability": {
+      "desc": "Lulu makes a low-Health ally giant, knocking up nearby enemies for @CCDuration@ second. Hugeified allies gain @ModifiedBonusHealth@ bonus Health for the rest of combat.",
+      "icon": "ASSETS/Characters/Lulu/HUD/Icons2D/Lulu_GiantGrowth.dds",
+      "name": "Wild Growth",
+      "variables": [
+        {
+          "name": "BonusHealth",
+          "value": [
+            200,
+            400,
+            600,
+            950,
+            1200,
+            1200,
+            1200
+          ]
+        },
+        {
+          "name": "BuffDuration",
+          "value": [
+            60,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        },
+        {
+          "name": "CCDuration",
+          "value": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "DamageAmp",
+          "value": [
+            0.10000000149011612,
+            0.25,
+            0.30000001192092896,
+            0.4000000059604645,
+            0.10000000149011612,
+            0.10000000149011612,
+            0.10000000149011612
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Lulu",
     "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Lulu.TFT_Set4.dds",
+    "name": "Lulu",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 50,
+      "hp": 500,
+      "initialMana": 60,
+      "magicResist": 20,
+      "mana": 120,
+      "range": 3
+    },
     "traits": [
-      "Set4_Elderwood",
-      "Set4_Mage"
+      "Elderwood",
+      "Mage"
     ]
   },
   {
-    "name": "Lux",
-    "championId": "TFT4_Lux",
+    "ability": {
+      "desc": "Lux fires a sphere of light towards her farthest enemy. Enemies in the sphere's path take @ModifiedDamage@ magic damage and are stunned for @StunDuration@ seconds.",
+      "icon": "ASSETS/Characters/Lux/HUD/Icons2D/LuxCrashingBlitz2.dds",
+      "name": "Light Binding",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            300,
+            300,
+            400,
+            700,
+            800,
+            800,
+            800
+          ]
+        },
+        {
+          "name": "StunDuration",
+          "value": [
+            1,
+            1.5,
+            2,
+            3,
+            3,
+            3.5,
+            4
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Lux",
     "cost": 3,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Lux.TFT_Set4.dds",
+    "name": "Lux",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.699999988079071,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 40,
+      "hp": 600,
+      "initialMana": 40,
+      "magicResist": 20,
+      "mana": 100,
+      "range": 4
+    },
     "traits": [
       "Divine",
-      "Set4_Dazzler"
+      "Dazzler"
     ]
   },
   {
+    "ability": {
+      "desc": "Maokai smashes the ground, sending forward a shockwave that deals @ModifiedDamage@ magic damage to enemies hit and slows their Attack Speed by 50% for @ASSlowDuration@ seconds.",
+      "icon": "ASSETS/Characters/Maokai/HUD/Icons2D/Maokai_Q.dds",
+      "name": "Bramble Smash",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            50,
+            225,
+            350,
+            550,
+            1000,
+            1250,
+            1500
+          ]
+        },
+        {
+          "name": "ASSlowDuration",
+          "value": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Maokai",
+    "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Maokai.TFT_Set4.dds",
     "name": "Maokai",
-    "championId": "TFT4_Maokai",
-    "cost": 1,
+    "stats": {
+      "armor": 40,
+      "attackSpeed": 0.5,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 55,
+      "hp": 700,
+      "initialMana": 0,
+      "magicResist": 30,
+      "mana": 75,
+      "range": 1
+    },
     "traits": [
-      "Set4_Elderwood",
-      "Set4_Brawler"
+      "Elderwood",
+      "Brawler"
     ]
   },
   {
-    "name": "Morgana",
-    "championId": "TFT4_Morgana",
+    "ability": {
+      "desc": "Morgana hallows the ground beneath a random target, dealing @ModifiedDamage@ magic damage to enemies over @Duration@ seconds and shredding 40% of their Magic Resistance while they remain inside. Morgana heals herself for @HealPercent@% of the damage dealt.",
+      "icon": "ASSETS/Characters/Morgana/HUD/Icons2D/FallenAngel_Purgatory.dds",
+      "name": "Hallowed Ground",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            0,
+            250,
+            400,
+            2000,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            0,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "HealPercent",
+          "value": [
+            0,
+            20,
+            25,
+            30,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Morgana",
     "cost": 4,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Morgana.TFT_Set4.dds",
+    "name": "Morgana",
+    "stats": {
+      "armor": 30,
+      "attackSpeed": 0.699999988079071,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 50,
+      "hp": 750,
+      "initialMana": 60,
+      "magicResist": 60,
+      "mana": 120,
+      "range": 3
+    },
     "traits": [
-      "Set4_Enlightened",
-      "Set4_Dazzler"
+      "Enlightened",
+      "Dazzler"
     ]
   },
   {
+    "ability": {
+      "desc": "Nami traps the closest enemy in her bubble, dealing @ModifiedDamage@ magic damage and stunning them for @StunDuration@ seconds.",
+      "icon": "ASSETS/Characters/Nami/HUD/Icons2D/NamiQ.dds",
+      "name": "Aqua Prison",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            50,
+            225,
+            300,
+            450,
+            450,
+            550,
+            650
+          ]
+        },
+        {
+          "name": "StunDuration",
+          "value": [
+            1.5,
+            2.5,
+            3,
+            4,
+            3.5,
+            4,
+            4.5
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Nami",
+    "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Nami.TFT_Set4.dds",
     "name": "Nami",
-    "championId": "TFT4_Nami",
-    "cost": 1,
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.6499999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 40,
+      "hp": 550,
+      "initialMana": 60,
+      "magicResist": 20,
+      "mana": 100,
+      "range": 3
+    },
     "traits": [
-      "Set4_Enlightened",
-      "Set4_Mage"
+      "Enlightened",
+      "Mage"
     ]
   },
   {
-    "name": "Nidalee",
-    "championId": "TFT4_Nidalee",
+    "ability": {
+      "desc": "Nidalee throws her javelin at her farthest enemy, dealing @ModifiedDamage@ magic damage plus @PercentPerHex*100@% more for each hex traveled.",
+      "icon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Nidalee_Q1.dds",
+      "name": "Javelin Toss",
+      "variables": [
+        {
+          "name": "BaseDamage",
+          "value": [
+            50,
+            225,
+            350,
+            600,
+            450,
+            550,
+            650
+          ]
+        },
+        {
+          "name": "PercentPerHex",
+          "value": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Nidalee",
     "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Nidalee.TFT_Set4.dds",
+    "name": "Nidalee",
+    "stats": {
+      "armor": 30,
+      "attackSpeed": 0.699999988079071,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 45,
+      "hp": 550,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 80,
+      "range": 4
+    },
     "traits": [
       "Warlord",
       "Sharpshooter"
     ]
   },
   {
-    "name": "Nunu & Willump",
-    "championId": "TFT4_Nunu",
-    "cost": 3,
-    "traits": [
-      "Set4_Elderwood",
-      "Set4_Brawler"
-    ]
-  },
-  {
-    "name": "Pyke",
-    "championId": "TFT4_Pyke",
+    "ability": {
+      "desc": "Pyke leaves a phantom at his location, then dashes behind the farthest enemy. After @StunDelay@ second, his phantom returns to Pyke, dealing @ModifiedDamage@ magic damage to all enemies it passes through and stunning them for @StunDuration@ seconds.",
+      "icon": "ASSETS/Characters/Pyke/HUD/Icons2D/PykeE.dds",
+      "name": "Phantom Undertow",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            100,
+            125,
+            200,
+            375,
+            300,
+            350,
+            400
+          ]
+        },
+        {
+          "name": "StunDuration",
+          "value": [
+            1,
+            2,
+            2.5,
+            4,
+            3,
+            3.5,
+            4
+          ]
+        },
+        {
+          "name": "StunDelay",
+          "value": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Pyke",
     "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Pyke.TFT_Set4.dds",
+    "name": "Pyke",
+    "stats": {
+      "armor": 50,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 50,
+      "hp": 700,
+      "initialMana": 75,
+      "magicResist": 30,
+      "mana": 125,
+      "range": 1
+    },
     "traits": [
       "Cultist",
-      "Set4_Assassin"
+      "Assassin"
     ]
   },
   {
-    "name": "Riven",
-    "championId": "TFT4_Riven",
+    "ability": {
+      "desc": "Willump bites his target, dealing @ModifiedDamage@ magic damage. If Willump's target has less Health than he does before the bite, it deals an additional @DamageAmp*100@% damage and becomes true damage.",
+      "icon": "ASSETS/Characters/Nunu/HUD/Icons2D/NunuQ.dds",
+      "name": "Consume",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            200,
+            450,
+            650,
+            1800,
+            3200,
+            6400,
+            12800
+          ]
+        },
+        {
+          "name": "DamageAmp",
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Nunu",
+    "cost": 3,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Nunu.TFT_Set4.dds",
+    "name": "Nunu & Willump",
+    "stats": {
+      "armor": 50,
+      "attackSpeed": 0.550000011920929,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 65,
+      "hp": 750,
+      "initialMana": 0,
+      "magicResist": 30,
+      "mana": 85,
+      "range": 1
+    },
+    "traits": [
+      "Elderwood",
+      "Brawler"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Riven dashes and shields herself for @ModifiedShield@, then slashes forward dealing @ModifiedDamage@ magic damage to nearby enemies. <br><br>Every third cast, Riven leaps into the air and launches forward a large wave of energy that deals @ModifiedDamageFinal@ magic damage.",
+      "icon": "ASSETS/Characters/Riven/HUD/Icons2D/Riven_Buffer.dds",
+      "name": "Sweeping Strikes",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            50,
+            175,
+            250,
+            750,
+            1000,
+            1250,
+            1500
+          ]
+        },
+        {
+          "name": "SlashHexRadius",
+          "value": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "DamageFinal",
+          "value": [
+            0,
+            300,
+            450,
+            1350,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Shield",
+          "value": [
+            0,
+            175,
+            250,
+            750,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "ShieldDuration",
+          "value": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Riven",
     "cost": 4,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Riven.TFT_Set4.dds",
+    "name": "Riven",
+    "stats": {
+      "armor": 35,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 70,
+      "hp": 800,
+      "initialMana": 0,
+      "magicResist": 30,
+      "mana": 20,
+      "range": 1
+    },
     "traits": [
       "Dusk",
       "Keeper"
     ]
   },
   {
-    "name": "Sejuani",
-    "championId": "TFT4_Sejuani",
+    "ability": {
+      "desc": "Sejuani throws a giant firecracker at the closest enemy that explodes after a @ExplosionDelay@-second delay. Enemies in the explosion are dealt @ModifiedDamage@ magic damage and are stunned for @StunDuration@ seconds.",
+      "icon": "ASSETS/Characters/Sejuani/HUD/Icons2D/Sejuani_R.dds",
+      "name": "Firecracker",
+      "variables": [
+        {
+          "name": "ExplosionDelay",
+          "value": [
+            0,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "Damage",
+          "value": [
+            25,
+            100,
+            200,
+            800,
+            325,
+            400,
+            475
+          ]
+        },
+        {
+          "name": "StunDuration",
+          "value": [
+            0.5,
+            2.5,
+            3,
+            6,
+            6.5,
+            8,
+            9.5
+          ]
+        },
+        {
+          "name": "HexRadius",
+          "value": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Sejuani",
     "cost": 4,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Sejuani.TFT_Set4.dds",
+    "name": "Sejuani",
+    "stats": {
+      "armor": 60,
+      "attackSpeed": 0.550000011920929,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 45,
+      "hp": 1000,
+      "initialMana": 70,
+      "magicResist": 40,
+      "mana": 150,
+      "range": 1
+    },
     "traits": [
       "Fortune",
-      "Set4_Vanguard"
+      "Vanguard"
     ]
   },
   {
-    "name": "Sett",
-    "championId": "TFT4_Sett",
+    "ability": {
+      "desc": "Sett grabs his target and slams them forward, dealing @ModifiedPercentMaxHealthDamagePrimary@ of their maximum Health in magic damage to them, and @ModifiedPercentMaxHealthDamageSecondary@ of the slammed enemy's maximum Health to all other enemies in a large area.",
+      "icon": "ASSETS/Characters/Sett/HUD/Icons2D/Sett_R.Sett.dds",
+      "name": "Showstopper",
+      "variables": [
+        {
+          "name": "PercentMaxHealthDamagePrimary",
+          "value": [
+            0,
+            0.4000000059604645,
+            0.6000000238418579,
+            4,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "PercentMaxHealthDamageSecondary",
+          "value": [
+            0,
+            0.20000000298023224,
+            0.30000001192092896,
+            2,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Sett",
     "cost": 5,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Sett.TFT_Set4.dds",
+    "name": "Sett",
+    "stats": {
+      "armor": 60,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 60,
+      "hp": 1100,
+      "initialMana": 100,
+      "magicResist": 30,
+      "mana": 175,
+      "range": 1
+    },
     "traits": [
-      "Boss",
-      "Set4_Brawler"
+      "The Boss",
+      "Brawler"
     ]
   },
   {
-    "name": "Shen",
-    "championId": "TFT4_Shen",
+    "ability": {
+      "desc": "Shen dashes past his target, shielding himself against @ModifiedShield@ damage and taunting all adjacent enemies for @Duration@ seconds.",
+      "icon": "ASSETS/Characters/Shen/HUD/Icons2D/Shen_R.dds",
+      "name": "Shadow Dash",
+      "variables": [
+        {
+          "name": "ShieldAmount",
+          "value": [
+            250,
+            500,
+            800,
+            4000,
+            5000,
+            5000,
+            5000
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            4,
+            4,
+            4,
+            8,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Shen",
     "cost": 4,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Shen.TFT_Set4.dds",
+    "name": "Shen",
+    "stats": {
+      "armor": 60,
+      "attackSpeed": 0.6499999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 60,
+      "hp": 950,
+      "initialMana": 50,
+      "magicResist": 40,
+      "mana": 100,
+      "range": 1
+    },
     "traits": [
-      "Set4_Ninja",
-      "Set4_Adept",
-      "Set4_Mystic"
+      "Ninja",
+      "Adept",
+      "Mystic"
     ]
   },
   {
+    "ability": {
+      "desc": "Sylas lashes his chains out in a @HexDistance@-hex line, dealing @ModifiedDamage@ magic damage to enemies hit and increasing the mana cost of their next spell by 33%.",
+      "icon": "ASSETS/Characters/Sylas/HUD/Icons2D/SylasQ.dds",
+      "name": "Chain Lash",
+      "variables": [
+        {
+          "name": "BaseDamage",
+          "value": [
+            0,
+            250,
+            400,
+            700,
+            1111,
+            800,
+            800
+          ]
+        },
+        {
+          "name": "HexDistance",
+          "value": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Sylas",
+    "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Sylas.TFT_Set4.dds",
     "name": "Sylas",
-    "championId": "TFT4_Sylas",
-    "cost": 1,
+    "stats": {
+      "armor": 40,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 70,
+      "hp": 700,
+      "initialMana": 30,
+      "magicResist": 80,
+      "mana": 60,
+      "range": 1
+    },
     "traits": [
       "Moonlight",
-      "Set4_Brawler"
+      "Brawler"
     ]
   },
   {
-    "name": "Tahm Kench",
-    "championId": "TFT4_TahmKench",
+    "ability": {
+      "desc": "Tahm Kench takes @ModifiedDR@ reduced damage from all sources.",
+      "icon": "ASSETS/Characters/TahmKench/HUD/Icons2D/TahmKench_E.dds",
+      "name": "Thick Skin",
+      "variables": [
+        {
+          "name": "DamageReduction",
+          "value": [
+            15,
+            15,
+            25,
+            75,
+            1050,
+            1300,
+            1550
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_TahmKench",
     "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_TahmKench.TFT_Set4.dds",
+    "name": "Tahm Kench",
+    "stats": {
+      "armor": 40,
+      "attackSpeed": 0.5,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 85,
+      "hp": 700,
+      "initialMana": 0,
+      "magicResist": 30,
+      "mana": 0,
+      "range": 1
+    },
     "traits": [
       "Fortune",
-      "Set4_Brawler"
+      "Brawler"
     ]
   },
   {
-    "name": "Talon",
-    "championId": "TFT4_Talon",
+    "ability": {
+      "desc": "Talon stabs his target, striking them for @PercentOfAD*100@% of his Attack Damage plus @TooltipBonusDamage@ bonus physical damage (total: <scaleAD>@ModifiedDamage@ %i:scaleAD%</scaleAD>). If this kills them, Talon becomes unstoppable and untargetable while he leaps to the lowest Armor enemy.",
+      "icon": "ASSETS/Characters/Talon/HUD/Icons2D/TalonQ.dds",
+      "name": "Truestrike",
+      "variables": [
+        {
+          "name": "PercentOfAD",
+          "value": [
+            0,
+            2.4000000953674316,
+            2.5,
+            2.75,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Damage",
+          "value": [
+            0,
+            85,
+            135,
+            400,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Talon",
     "cost": 4,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Talon.TFT_Set4.dds",
+    "name": "Talon",
+    "stats": {
+      "armor": 30,
+      "attackSpeed": 0.800000011920929,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 90,
+      "hp": 800,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 40,
+      "range": 1
+    },
     "traits": [
-      "Set4_Enlightened",
-      "Set4_Assassin"
+      "Enlightened",
+      "Assassin"
     ]
   },
   {
-    "name": "Teemo",
-    "championId": "TFT4_Teemo",
+    "ability": {
+      "desc": "Teemo fires a dart at the enemy with the highest Attack Speed. The dart explodes into a cloud of spores on contact, poisoning nearby enemies. Poisoned enemies take @ModifiedDamage@ magic damage over @Duration@ seconds and are blinded for the duration.",
+      "icon": "ASSETS/Characters/Teemo/HUD/Icons2D/Teemo_E.dds",
+      "name": "Sporecloud Dart",
+      "variables": [
+        {
+          "name": "Duration",
+          "value": [
+            2,
+            2.5,
+            3,
+            4.5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "name": "TickRate",
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "TotalDamage",
+          "value": [
+            50,
+            300,
+            450,
+            900,
+            650,
+            800,
+            950
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Teemo",
     "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Teemo.TFT_Set4.dds",
+    "name": "Teemo",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.699999988079071,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 55,
+      "hp": 500,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 60,
+      "range": 3
+    },
     "traits": [
-      "Set4_Spirit",
+      "Spirit",
       "Sharpshooter"
     ]
   },
   {
-    "name": "Thresh",
-    "championId": "TFT4_Thresh",
+    "ability": {
+      "desc": "Thresh throws his lantern to the lowest-Health ally, shielding them and nearby allies against @ModifiedShield@ damage for @Duration@ seconds.",
+      "icon": "ASSETS/Characters/Thresh/HUD/Icons2D/Thresh_W.dds",
+      "name": "Spectral Lantern",
+      "variables": [
+        {
+          "name": "ShieldAmount",
+          "value": [
+            100,
+            250,
+            450,
+            750,
+            700,
+            850,
+            1000
+          ]
+        },
+        {
+          "name": "Radius",
+          "value": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Thresh",
     "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Thresh.TFT_Set4.dds",
+    "name": "Thresh",
+    "stats": {
+      "armor": 80,
+      "attackSpeed": 0.550000011920929,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 60,
+      "hp": 700,
+      "initialMana": 50,
+      "magicResist": 20,
+      "mana": 100,
+      "range": 2
+    },
     "traits": [
       "Dusk",
-      "Set4_Vanguard"
+      "Vanguard"
     ]
   },
   {
-    "name": "Twisted Fate",
-    "championId": "TFT4_TwistedFate",
+    "ability": {
+      "desc": "Lissandra hurls a dagger toward the enemy with the highest Attack Damage, dealing @ModifiedDamage@ magic damage to the first target it hits. After hitting its initial target or at its final destination, the dagger explodes dealing @ModifiedSecondaryDamage@ magic damage to nearby targets.",
+      "icon": "ASSETS/Characters/Lissandra/HUD/Icons2D/Lissandra_Q.dds",
+      "name": "1000 Daggers",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            0,
+            350,
+            450,
+            550,
+            750,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "SecondaryDamage",
+          "value": [
+            0,
+            175,
+            225,
+            275,
+            375,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Lissandra",
     "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Lissandra.TFT_Set4.dds",
+    "name": "Lissandra",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 40,
+      "hp": 550,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 50,
+      "range": 3
+    },
+    "traits": [
+      "Moonlight",
+      "Dazzler"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Twisted Fate throws three cards in a cone that deal @ModifiedDamage@ magic damage to each enemy they pass through.",
+      "icon": "ASSETS/Characters/TwistedFate/HUD/Icons2D/Cardmaster_PowerCard.dds",
+      "name": "Wild Cards",
+      "variables": [
+        {
+          "name": "BaseDamage",
+          "value": [
+            0,
+            250,
+            350,
+            475,
+            550,
+            550,
+            550
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_TwistedFate",
+    "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_TwistedFate.TFT_Set4.dds",
+    "name": "Twisted Fate",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.6499999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 45,
+      "hp": 550,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 70,
+      "range": 3
+    },
     "traits": [
       "Cultist",
-      "Set4_Mage"
+      "Mage"
     ]
   },
   {
-    "name": "Vayne",
-    "championId": "TFT4_Vayne",
+    "ability": {
+      "desc": "Passive: Vayne's third attack on a target deals @ModifiedDamage@ bonus true damage.",
+      "icon": "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_SilveredBolts.dds",
+      "name": "Silver Bolts",
+      "variables": [
+        {
+          "name": "BonusDamage",
+          "value": [
+            60,
+            50,
+            90,
+            140,
+            225,
+            225,
+            225
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Vayne",
     "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Vayne.TFT_Set4.dds",
+    "name": "Vayne",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.8999999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 40,
+      "hp": 500,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 0,
+      "range": 4
+    },
     "traits": [
       "Dusk",
       "Sharpshooter"
     ]
   },
   {
-    "name": "Veigar",
-    "championId": "TFT4_Veigar",
+    "ability": {
+      "desc": "Veigar blasts the enemy with the lowest Health, dealing @ModifiedDamage@ magic damage.<br><br>If this kills his target, Veigar permanently gains @APToAdd@ Spell Power.",
+      "icon": "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarDarkMatter.dds",
+      "name": "Dark Blossom",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            0,
+            450,
+            600,
+            900,
+            900,
+            900,
+            900
+          ]
+        },
+        {
+          "name": "APToAdd",
+          "value": [
+            1,
+            1,
+            1,
+            2,
+            27,
+            27,
+            27
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Veigar",
     "cost": 3,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Veigar.TFT_Set4.dds",
+    "name": "Veigar",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 40,
+      "hp": 600,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 45,
+      "range": 3
+    },
     "traits": [
-      "Set4_Elderwood",
-      "Set4_Mage"
+      "Elderwood",
+      "Mage"
     ]
   },
   {
-    "name": "Vi",
-    "championId": "TFT4_Vi",
-    "cost": 2,
+    "ability": {
+      "desc": "Wukong slams his target with his staff, dealing @ModifiedPercentAD@ of his Attack Damage as physical damage and stunning them for @Duration@ seconds. (Total Damage: @TooltipDamage@)",
+      "icon": "ASSETS/Characters/MonkeyKing/HUD/Icons2D/MonkeyKingCrushingBlow.dds",
+      "name": "Crushing Blow",
+      "variables": [
+        {
+          "name": "PercentAD",
+          "value": [
+            1.5,
+            2.5,
+            2.6500000953674316,
+            2.799999952316284,
+            3.5,
+            4,
+            4.5
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            1.5,
+            1.5,
+            2,
+            3,
+            2,
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Wukong",
+    "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Wukong.TFT_Set4.dds",
+    "name": "Wukong",
+    "stats": {
+      "armor": 40,
+      "attackSpeed": 0.6499999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 55,
+      "hp": 650,
+      "initialMana": 0,
+      "magicResist": 30,
+      "mana": 50,
+      "range": 1
+    },
+    "traits": [
+      "Divine",
+      "Vanguard"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Xin Zhao sweeps around himself, dealing @ModifiedDamage@ of his Attack Damage (total: @TooltipDamage@) to nearby enemies and gaining @ArmorAndMR@ Armor and Magic Resist for the rest of combat.",
+      "icon": "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoR.dds",
+      "name": "Crescent Guard",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            75,
+            150,
+            225,
+            500,
+            575,
+            700,
+            825
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "name": "HexRadius",
+          "value": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "PercentOfAttackDamage",
+          "value": [
+            0,
+            3.299999952316284,
+            3.4000000953674316,
+            3.5,
+            5,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "DamageAmp",
+          "value": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "DamageReduction",
+          "value": [
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579
+          ]
+        },
+        {
+          "name": "ArmorAndMR",
+          "value": [
+            0,
+            50,
+            60,
+            75,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_XinZhao",
+    "cost": 3,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_XinZhao.TFT_Set4.dds",
+    "name": "Xin Zhao",
+    "stats": {
+      "armor": 45,
+      "attackSpeed": 0.8500000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 65,
+      "hp": 700,
+      "initialMana": 30,
+      "magicResist": 30,
+      "mana": 60,
+      "range": 1
+    },
     "traits": [
       "Warlord",
-      "Set4_Brawler"
+      "Duelist"
     ]
   },
   {
-    "name": "Warwick",
-    "championId": "TFT4_Warwick",
+    "ability": {
+      "desc": "Yasuo strikes forward two hexes, attacking for @ModifiedDamage@ of his Attack Damage (total: @TooltipDamage@). If he can't hit two targets from where he's standing, he'll first dash to a place where he can.",
+      "icon": "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q3.dds",
+      "name": "Striking Steel",
+      "variables": [
+        {
+          "name": "HexRange",
+          "value": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "name": "Width",
+          "value": [
+            75,
+            75,
+            75,
+            75,
+            75,
+            75,
+            75
+          ]
+        },
+        {
+          "name": "ADPercent",
+          "value": [
+            0,
+            1.7999999523162842,
+            2,
+            2.25,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Yasuo",
+    "cost": 1,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Yasuo.TFT_Set4.dds",
+    "name": "Yasuo",
+    "stats": {
+      "armor": 30,
+      "attackSpeed": 0.699999988079071,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 50,
+      "hp": 550,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 45,
+      "range": 1
+    },
+    "traits": [
+      "Exile",
+      "Duelist"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Yone strikes along a path in front of him, dealing @ModifiedDamage@ magic damage split between all enemies hit. Enemies hit are marked for death, reducing their Armor and Magic Resist by @ShredPercent@%.<br><br>Yone's spell is then replaced with Unforgotten until there are no remaining enemies marked for death.<br><br>Unforgotten (20 mana): Yone dashes to the lowest-Health enemy that is marked for death, dealing @ModifiedUnforgottenDamage@ plus their missing health as magic damage.",
+      "icon": "ASSETS/Characters/Yone/HUD/Icons2D/YoneR.Yone.dds",
+      "name": "Seal Fate",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            1000,
+            600,
+            1200,
+            9999,
+            9999,
+            9999,
+            9999
+          ]
+        },
+        {
+          "name": "KnockUpDuration",
+          "value": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "MaxDistance",
+          "value": [
+            880,
+            880,
+            880,
+            880,
+            880,
+            880,
+            880
+          ]
+        },
+        {
+          "name": "ShredPercent",
+          "value": [
+            0,
+            60,
+            60,
+            60,
+            60,
+            60,
+            60
+          ]
+        },
+        {
+          "name": "UnforgottenDamage",
+          "value": [
+            0,
+            200,
+            400,
+            1000,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Yone",
+    "cost": 5,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Yone.TFT_Set4.dds",
+    "name": "Yone",
+    "stats": {
+      "armor": 40,
+      "attackSpeed": 0.949999988079071,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 80,
+      "hp": 950,
+      "initialMana": 0,
+      "magicResist": 40,
+      "mana": 60,
+      "range": 1
+    },
+    "traits": [
+      "Exile",
+      "Adept"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Yuumi dashes to the lowest-Health ally, healing them for @ModifiedHealing@ of their missing Health and granting them @ModifiedAS@ Attack Speed for @Duration@ seconds. She then repeats this on the farthest ally.",
+      "icon": "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiE.dds",
+      "name": "Zoomies",
+      "variables": [
+        {
+          "name": "Healing",
+          "value": [
+            0.15000000596046448,
+            0.30000001192092896,
+            0.44999998807907104,
+            0.75,
+            0.75,
+            0.8999999761581421,
+            1.0499999523162842
+          ]
+        },
+        {
+          "name": "AttackSpeed",
+          "value": [
+            0.20000000298023224,
+            0.30000001192092896,
+            0.4000000059604645,
+            0.6000000238418579,
+            1,
+            1.2000000476837158,
+            1.399999976158142
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "DashSpeed",
+          "value": [
+            1600,
+            1600,
+            1600,
+            1600,
+            1600,
+            1600,
+            1600
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Yuumi",
+    "cost": 3,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Yuumi.TFT_Set4.dds",
+    "name": "Yuumi",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 40,
+      "hp": 650,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 40,
+      "range": 3
+    },
+    "traits": [
+      "Spirit",
+      "Mystic"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Passive: Every third attack, Zed deals @ModifiedDamage@ bonus magic damage and steals @ADSteal*100@% of the target's current Attack Damage.",
+      "icon": "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_Q.dds",
+      "name": "Contempt For The Weak",
+      "variables": [
+        {
+          "name": "ADSteal",
+          "value": [
+            0.25,
+            0.25,
+            0.30000001192092896,
+            0.3499999940395355,
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ]
+        },
+        {
+          "name": "Damage",
+          "value": [
+            0,
+            40,
+            50,
+            75,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Zed",
+    "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Zed.TFT_Set4.dds",
+    "name": "Zed",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 55,
+      "hp": 600,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 0,
+      "range": 1
+    },
+    "traits": [
+      "Ninja",
+      "Shade"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Zilean places a protective Time Rune on the @NumTargets@ allies with the lowest Health other than himself. When they would die, they instead resurrect after @ReviveDelay@ seconds, returning to combat with @HealthAmountCalc@ Health and shedding all negative effects. After resurrecting, they have @ModifiedAS@ bonus Attack Speed for the rest of combat.",
+      "icon": "ASSETS/Characters/Zilean/HUD/Icons2D/Zilean_E.dds",
+      "name": "Rewind Fate",
+      "variables": [
+        {
+          "name": "NumTargets",
+          "value": [
+            0,
+            2,
+            3,
+            10,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "name": "HealthAmount",
+          "value": [
+            400,
+            350,
+            500,
+            3000,
+            400,
+            400,
+            400
+          ]
+        },
+        {
+          "name": "ReviveDelay",
+          "value": [
+            6,
+            3.5,
+            3,
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "name": "AttackSpeed",
+          "value": [
+            0.75,
+            0.5,
+            0.75,
+            5,
+            0.75,
+            0.75,
+            0.75
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Zilean",
+    "cost": 5,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Zilean.TFT_Set4.dds",
+    "name": "Zilean",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.75,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 45,
+      "hp": 750,
+      "initialMana": 100,
+      "magicResist": 20,
+      "mana": 150,
+      "range": 3
+    },
+    "traits": [
+      "Cultist",
+      "Mystic"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Vi's attack blasts through her target, dealing @ModifiedDamage@ magic damage to all enemies in a cone and reducing their Armor by @ArmorReduction*100@% for @Duration@ seconds.",
+      "icon": "ASSETS/Characters/Vi/HUD/Icons2D/ViE2.dds",
+      "name": "Denting Blow",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            50,
+            250,
+            400,
+            800,
+            650,
+            800,
+            950
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        {
+          "name": "ArmorReduction",
+          "value": [
+            0.25,
+            0.4000000059604645,
+            0.6000000238418579,
+            0.800000011920929,
+            1.25,
+            1.5,
+            1.75
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Vi",
+    "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Vi.TFT_Set4.dds",
+    "name": "Vi",
+    "stats": {
+      "armor": 40,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 65,
+      "hp": 700,
+      "initialMana": 0,
+      "magicResist": 30,
+      "mana": 50,
+      "range": 1
+    },
+    "traits": [
+      "Warlord",
+      "Brawler"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Jarvan IV throws his standard near the farthest enemy and pulls himself toward it with his lance, dealing @DamageCalc@ magic damage to enemies he passes through, knocking them up and stunning them for @StunDuration@ second.",
+      "icon": "ASSETS/Characters/JarvanIV/HUD/Icons2D/JarvanIV_DragonStrike.dds",
+      "name": "Dragon Strike",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            50,
+            175,
+            250,
+            750,
+            550,
+            675,
+            800
+          ]
+        },
+        {
+          "name": "StunDuration",
+          "value": [
+            0,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_JarvanIV",
+    "cost": 2,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_JarvanIV.TFT_Set4.dds",
+    "name": "Jarvan IV",
+    "stats": {
+      "armor": 45,
+      "attackSpeed": 0.6000000238418579,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 60,
+      "hp": 600,
+      "initialMana": 50,
+      "magicResist": 30,
+      "mana": 100,
+      "range": 1
+    },
+    "traits": [
+      "Warlord",
+      "Keeper"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Kayn dashes toward his target then slashes all adjacent enemies, dealing @ModifiedDamage@ magic damage and increasing the mana cost of their next spell by 33%. If the slash hits exactly one target, Kayn immediately casts again.<br><br>As Rhaast: Reaping Slash heals Kayn for @PercentRestored*100@% of the damage it deals.<br><br>As Shadow Assassin: Reaping Slash deals an extra @ShadowDamagePercent@% damage for the first @ShadowDuration@ seconds of combat.",
+      "icon": "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Q_Primary.dds",
+      "name": "Reaping Slash",
+      "variables": [
+        {
+          "name": "Damage",
+          "value": [
+            300,
+            375,
+            575,
+            6666,
+            1200,
+            1200,
+            1200
+          ]
+        },
+        {
+          "name": "PercentRestored",
+          "value": [
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "name": "ShadowDamagePercent",
+          "value": [
+            50,
+            50,
+            50,
+            50,
+            50,
+            50,
+            50
+          ]
+        },
+        {
+          "name": "ShadowDuration",
+          "value": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Kayn",
+    "cost": 5,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Kayn.TFT_Set4.dds",
+    "name": "Kayn",
+    "stats": {
+      "armor": 40,
+      "attackSpeed": 1,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 80,
+      "hp": 900,
+      "initialMana": 0,
+      "magicResist": 40,
+      "mana": 50,
+      "range": 1
+    },
+    "traits": [
+      "Tormented",
+      "Shade"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Katarina channels for @Duration@ seconds, throwing knives at @NumberOfTargets@ nearby enemies, dealing @ModifiedDamage@ magic damage over the duration and reducing healing by 50% to her targets for @GrievousWoundsDuration@ seconds.",
+      "icon": "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_R.dds",
+      "name": "Death Lotus",
+      "variables": [
+        {
+          "name": "DamagePerTick",
+          "value": [
+            20,
+            40,
+            60,
+            120,
+            120,
+            145,
+            170
+          ]
+        },
+        {
+          "name": "TicksPerSecond",
+          "value": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5,
+            2.5
+          ]
+        },
+        {
+          "name": "GrievousWoundsDuration",
+          "value": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "NumberOfTargets",
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+          ]
+        },
+        {
+          "name": "TotalDamage",
+          "value": [
+            375,
+            750,
+            900,
+            1600,
+            1875,
+            2250,
+            2625
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Katarina",
+    "cost": 3,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Katarina.TFT_Set4.dds",
+    "name": "Katarina",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.6499999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 65,
+      "hp": 500,
+      "initialMana": 0,
+      "magicResist": 20,
+      "mana": 90,
+      "range": 1
+    },
+    "traits": [
+      "Warlord",
+      "Fortune",
+      "Assassin"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Ezreal fires a barrage toward the enemy with the highest Attack Speed, healing allies it passes through for @ModifiedHeal@ and granting them 50% Attack Speed, and damaging enemies it passes through for @ModifiedDamage@ magic damage and slowing their Attack Speed by 50% for @Duration@ seconds.",
+      "icon": "ASSETS/Characters/Ezreal/HUD/Icons2D/Ezreal_R.dds",
+      "name": "Flux Barrage",
+      "variables": [
+        {
+          "name": "BaseDamage",
+          "value": [
+            0,
+            250,
+            450,
+            9999,
+            900,
+            1000,
+            1200
+          ]
+        },
+        {
+          "name": "AttackSpeedDuration",
+          "value": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "BaseHeal",
+          "value": [
+            0,
+            250,
+            450,
+            9999,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "Duration",
+          "value": [
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Ezreal",
+    "cost": 5,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Ezreal.TFT_Set4.dds",
+    "name": "Ezreal",
+    "stats": {
+      "armor": 20,
+      "attackSpeed": 0.8999999761581421,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 80,
+      "hp": 750,
+      "initialMana": 90,
+      "magicResist": 20,
+      "mana": 150,
+      "range": 4
+    },
+    "traits": [
+      "Elderwood",
+      "Dazzler"
+    ]
+  },
+  {
+    "ability": {
+      "desc": "Warwick gains @ModifiedAS@ Attack Speed, @LifestealPercent@% Lifesteal, and moves faster for the rest of combat. <br><br>While in this state, if Warwick scores a takedown he howls, granting himself and all allies who share a Trait with him an additional @AllyAS*100@% Attack Speed for @AllyASDuration@ seconds.",
+      "icon": "ASSETS/Characters/Warwick/HUD/Icons2D/WarwickP.dds",
+      "name": "Primal Hunger",
+      "variables": [
+        {
+          "name": "AttackSpeedPercent",
+          "value": [
+            5,
+            1.350000023841858,
+            1.5,
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        {
+          "name": "LifestealPercent",
+          "value": [
+            0,
+            40,
+            40,
+            200,
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ]
+        },
+        {
+          "name": "FearDuration",
+          "value": [
+            200,
+            0.75,
+            0.75,
+            3,
+            200,
+            200,
+            200
+          ]
+        },
+        {
+          "name": "AllyAS",
+          "value": [
+            0,
+            0.6000000238418579,
+            0.75,
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "AllyASDuration",
+          "value": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    "apiName": "TFT4_Warwick",
     "cost": 4,
+    "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT4_Warwick.TFT_Set4.dds",
+    "name": "Warwick",
+    "stats": {
+      "armor": 40,
+      "attackSpeed": 0.800000011920929,
+      "critChance": 0.25,
+      "critMultiplier": 1.5,
+      "damage": 85,
+      "hp": 950,
+      "initialMana": 0,
+      "magicResist": 40,
+      "mana": 70,
+      "range": 1
+    },
     "traits": [
       "Divine",
       "Hunter",
-      "Set4_Brawler"
-    ]
-  },
-  {
-    "name": "Wukong",
-    "championId": "TFT4_Wukong",
-    "cost": 1,
-    "traits": [
-      "Divine",
-      "Set4_Vanguard"
-    ]
-  },
-  {
-    "name": "Xin Zhao",
-    "championId": "TFT4_XinZhao",
-    "cost": 3,
-    "traits": [
-      "Warlord",
-      "Duelist"
-    ]
-  },
-  {
-    "name": "Yasuo",
-    "championId": "TFT4_Yasuo",
-    "cost": 1,
-    "traits": [
-      "Set4_Exile",
-      "Duelist"
-    ]
-  },
-  {
-    "name": "Yone",
-    "championId": "TFT4_Yone",
-    "cost": 5,
-    "traits": [
-      "Set4_Exile",
-      "Set4_Adept"
-    ]
-  },
-  {
-    "name": "Yuumi",
-    "championId": "TFT4_Yuumi",
-    "cost": 3,
-    "traits": [
-      "Set4_Spirit",
-      "Set4_Mystic"
-    ]
-  },
-  {
-    "name": "Zed",
-    "championId": "TFT4_Zed",
-    "cost": 2,
-    "traits": [
-      "Set4_Ninja",
-      "Set4_Shade"
-    ]
-  },
-  {
-    "name": "Zilean",
-    "championId": "TFT4_Zilean",
-    "cost": 5,
-    "traits": [
-      "Cultist",
-      "Set4_Mystic"
+      "Brawler"
     ]
   }
 ]
