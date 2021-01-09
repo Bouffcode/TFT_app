@@ -171,7 +171,8 @@
   },
   { 
     "id": 35,
-    "name": "When combat begins, the wearer and all allies within 2 hexes in the same row gain a shield that blocks 300/375/500/800 damage for 8 seconds.",
+    "name":"Locket of the Iron Solari",
+    "description": "When combat begins, the wearer and all allies within 2 hexes in the same row gain a shield that blocks 300/375/500/800 damage for 8 seconds.",
     "effects": ["+15 AP", "25 Armor"]
   },
   {
