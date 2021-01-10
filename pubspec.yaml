@@ -50,6 +50,7 @@ flutter:
     - assets/items.json
     - assets/items/
     - assets/champions/
+    - assets/champions.json
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

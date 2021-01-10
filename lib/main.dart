@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:tft_app/screens/champions.dart';
 import 'dart:convert';
 import 'package:tft_app/screens/items_screen.dart';
 
@@ -49,6 +50,23 @@ void itemJson() async { //Fonction pour wait le decode du Json, ensuite push la 
 
 }
 
+/////////////////////////////////////////////////////////////////////////////////
+Future<String>_loadFromAssetChampions() async { //Fonction jebtha men Stacksoverflow pour ouvrir un JSON local, je comprend pas/jveux pas comprendre
+  return await DefaultAssetBundle.of(context).loadString("assets/champions.json");
+}
+
+void itemJsonChampions() async { //Fonction pour wait le decode du Json, ensuite push la page des Items avec les données comme arguments
+    String jsonString = await _loadFromAssetChampions();
+    final championResponse = jsonDecode(jsonString);
+    Navigator.push(
+    context,
+    MaterialPageRoute(
+      builder: (context) => ChampionsPage(data: championResponse), //les données du Json sont dan't l'argument
+    ));
+
+}
+////////////////////////////////////////////////////////////////////////
+
   @override
   Widget build(BuildContext context) {
     
@@ -61,7 +79,7 @@ void itemJson() async { //Fonction pour wait le decode du Json, ensuite push la 
         child: Container(
           child: RaisedButton(
             color: Colors.grey,
-            onPressed: (){},
+            onPressed: itemJsonChampions,
             child: Text('champions')
           ),
         )

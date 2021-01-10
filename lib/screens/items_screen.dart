@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 
 class ItemsScreen extends StatelessWidget {
   final List data; // le JSON est sous forme de liste et non une Map
-  ItemsScreen({Key key, this.data}) : super(key: key);
+  ItemsScreen({Key key, this.data});
   
   @override
   Widget build(BuildContext context) {

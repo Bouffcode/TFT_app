@@ -1,7 +1,7 @@
 [
   {
     "ability": {
-      "desc": "Aatrox pulls @NumberOfTargets@ of the farthest enemies toward himself, then slams the ground in front of himself, dealing @ModifiedDamage@ magic damage to all enemies hit.",
+      "desc": "Pulls 2 / 2 / 5 of the farthest enemies toward himself, then slams the ground in front of himself, dealing 250 / 450 / 1250 magic damage to all enemies hit.",
       "icon": "ASSETS/Characters/Aatrox/HUD/Icons2D/Aatrox_W.dds",
       "name": "Infernal Chains",
       "variables": [
@@ -54,7 +54,7 @@
   },
   {
     "ability": {
-      "desc": "Ahri channels energy into her spirit orb for @CastTime@ seconds, then lobs it toward a random enemy, dealing @ModifiedDamage@ magic damage to all enemies in a large area.<br><br>If Ahri is interrupted, she releases her orb early reducing the size of the impact area.",
+      "desc": "Channels for 1.5 seconds, gathering energy into her spirit orb. Once the channel is complete, lobs it toward a random enemy, dealing 500 / 700 / 3000 magic damage to all enemies in a large area. If the channel is interrupted, she releases her orb early, reducing the size of the impact area.",
       "icon": "ASSETS/Characters/Ahri/HUD/Icons2D/Ahri_SoulEater2.dds",
       "name": "Spirit Bomb",
       "variables": [
@@ -119,7 +119,7 @@
   },
   {
     "ability": {
-      "desc": "Akali throws kunai at her target, dealing @ModifiedDamage@ magic damage.",
+      "desc": "Throws kunai at her target, dealing 175 / 250 / 400 magic damage and preventing her from generating mana for 1.25 seconds.",
       "icon": "ASSETS/Characters/Akali/HUD/Icons2D/Akali_Q.dds",
       "name": "Five Point Strike",
       "variables": [
@@ -184,7 +184,7 @@
   },
   {
     "ability": {
-      "desc": "Annie blasts a cone of fire, dealing @ModifiedDamage@ magic damage to enemies in front of her, then creates a Shield with @ModifiedShield@ health on herself for @ShieldDuration@ seconds.",
+      "desc": "Blasts a cone of fire dealing 250 / 350 / 450 magic damage to enemies in front of her, then shields herself for 500 / 700 / 900 health for 8 seconds.",
       "icon": "ASSETS/Characters/Annie/HUD/Icons2D/Annie_E.dds",
       "name": "Burst Shield",
       "variables": [
@@ -249,7 +249,7 @@
   },
   {
     "ability": {
-      "desc": "Aphelios summons a turret for @ModifiedDuration@ seconds. An extension of his will, the turret deals damage as Aphelios, applies Aphelios' on-hit effects, and dies when Aphelios dies.",
+      "desc": "Summons a turret for 7 / 8 / 9 / 11 seconds, that shoots enemies, attacking with Aphelios' damage and attack speed, and applying on-hit effects. Turrets die when Aphelios dies. Turrets do not generate mana or apply on-attack and spell effects. Turrets cannot attack when Aphelios is disabled. Turrets cannot be targeted by enemies.",
       "icon": "ASSETS/Characters/Aphelios/HUD/Icons2D/Q_Crescendum.dds",
       "name": "Sentry Turret",
       "variables": [
@@ -290,7 +290,7 @@
   },
   {
     "ability": {
-      "desc": "Ashe gains @ModifiedAS@ Attack Speed for @Duration@ seconds, and her attacks fire a flurry of arrows for @ModifiedADDamage@ physical damage.",
+      "desc": "For the next 5 seconds, gains 45 / 65 / 300% bonus attack speed, and basic attacks fire a flurry of five arrows dealing 45% AD physical damage per arrow, for a total of 225% AD physical damage. Each flurry is considered as one basic attack.",
       "icon": "ASSETS/Characters/Ashe/HUD/Icons2D/Ashe_Q_active.dds",
       "name": "Hunter's Focus",
       "variables": [
@@ -367,7 +367,7 @@
   },
   {
     "ability": {
-      "desc": "Azir calls forth a wall of charging soldiers from behind him, dealing @ModifiedDamage@ magic damage to and slowing all enemies hit for @SlowDuration@ seconds. Enemies close to Azir are knocked back, while enemies further away are knocked up for @KnockupDuration@ seconds. ",
+      "desc": "Calls forth a wall of charging soliders from behind him, dealing 200 / 350 / 8888 magic damage and slowing all enemies hit for 3 seconds. Enemies close to him are knocked back, while enemies further away are knocked up for 1.5 seconds.",
       "icon": "ASSETS/Characters/Azir/HUD/Icons2D/Azir_R.dds",
       "name": "Emperor's Divide",
       "variables": [
@@ -469,7 +469,7 @@
   },
   {
     "ability": {
-      "desc": "Cassiopeia projects a cone of magic energy at her target, dealing @ModifiedDamage@ magic damage to all enemies hit, stunning them for @StunDuration@ seconds, and causing them to take @ModifiedDamageAmp@ increased damage while stunned.",
+      "desc": "Projects a cone of magic energy at her target, dealing 275 / 400 / 2000 magic damage to all enemies hit, stunning them for 2.5 / 3 / 5 seconds, and causing them to take 20% increased damage while stunned.",
       "icon": "ASSETS/Characters/Cassiopeia/HUD/Icons2D/Cassiopeia_R.dds",
       "name": "Petrifying Gaze",
       "variables": [
@@ -558,7 +558,7 @@
   },
   {
     "ability": {
-      "desc": "Diana shields herself against @ModifiedShield@ damage over @ShieldDuration@ seconds and summons @Orbs@ orbs to orbit around her. These orbs explode for @ModifiedDamage@ magic damage when they hit an enemy, refreshing her Shield when the final one explodes.",
+      "desc": "Shields herself against 200 / 300 / 450 damage over 4 seconds and summons 4 / 5 / 7 orbs to orbit around her. These orbs explode for 70 / 80 / 90 magic damage when they contact an enemy, refreshing her shield when the final one explodes.",
       "icon": "ASSETS/Characters/Diana/HUD/Icons2D/Diana_W_LunarShower.dds",
       "name": "Pale Cascade",
       "variables": [
@@ -635,7 +635,7 @@
   },
   {
     "ability": {
-      "desc": "Elise transforms into a spider, gaining @ModifiedPercentHealth@ maximum Health and causing her attacks to restore @ModifiedLifesteal@ Health.",
+      "desc": "Transforms into a spider, gaining 35 / 40 / 45% maximum health and causing her basic attacks to restore 40 / 80 / 160 health.",
       "icon": "ASSETS/Characters/Elise/HUD/Icons2D/EliseR.DDS",
       "name": "Spider Form",
       "variables": [
@@ -700,7 +700,7 @@
   },
   {
     "ability": {
-      "desc": "Evelynn deals @ModifiedDamage@ magic damage to up to 3 nearby enemies, then teleports away.<br><br>This damage is increased to @ModifiedCritDamage@ against targets below @ExecuteThreshholdPercent@ Health.",
+      "desc": "Deals 350 / 600 / 1500 magic damage to up to 3 nearby enemies, then teleports away. The damage is increased to 875 / 1500 / 3750 against targets below 50% health.",
       "icon": "ASSETS/Characters/Evelynn/HUD/Icons2D/Evelynn_R.dds",
       "name": "Last Caress",
       "variables": [
@@ -777,7 +777,7 @@
   },
   {
     "ability": {
-      "desc": "Fiora enters a defensive stance for @BlockDuration@ seconds, becoming immune to damage and enemy spell effects. Afterwards, she strikes, dealing @ModifiedDamage@ magic damage to a nearby enemy and stunning them for @StunDuration@ seconds.",
+      "desc": "Enters a defensive stance for 1.5 seconds, becoming immune to damage and enemy spell effects. Upon exiting the stance, deals 250 / 400 / 600 magic damage up to 3-hex range, stop at the first enemy hit, favoring her attack target, and stuns them for 2 / 2.5 / 4 seconds.",
       "icon": "ASSETS/Characters/Fiora/HUD/Icons2D/Fiora_R_Heal.dds",
       "name": "Riposte",
       "variables": [
@@ -842,7 +842,7 @@
   },
   {
     "ability": {
-      "desc": "Garen spins his sword for @SpinDuration@ seconds, dealing @ModifiedDamage@ magic damage to nearby enemies and reducing incoming magic damage by @MagicDamageReduction*100@% over the duration.",
+      "desc": "Spins his sword for 4 seconds, dealing 450 / 675 / 1125 magic damage to nearby enemies and reducing incoming magic damage by 80% over the duration.",
       "icon": "ASSETS/Characters/Garen/HUD/Icons2D/Garen_E1.dds",
       "name": "Judgement",
       "variables": [
@@ -919,7 +919,7 @@
   },
   {
     "ability": {
-      "desc": "Hecarim creates an aura around him for @Duration@ seconds. Each enemy within takes @ModifiedDamage@ magic damage, and heals Hecarim for @ModifiedHealing@, over the duration.",
+      "desc": "Creates an aura around him for 3 seconds. Each enemy within takes 250 / 400 / 750magic damage, and heals him for 250 / 400 / 750 over the duration.",
       "icon": "ASSETS/Characters/Hecarim/HUD/Icons2D/Hecarim_SpiritofDread.dds",
       "name": "Spirit Of Life",
       "variables": [
@@ -1008,7 +1008,7 @@
   },
   {
     "ability": {
-      "desc": "Irelia launches a storm of blades in front of her, dealing @ModifiedDamage@ magic damage and disarming enemies for @DisarmDuration@ seconds.",
+      "desc": " Launches a storm of blades in front of her, dealing 200 / 300 / 600 magic damage and disarming all enemies hit for 2.5 / 3 / 3.5 seconds.",
       "icon": "ASSETS/Characters/Irelia/HUD/Icons2D/Irelia_R.dds",
       "name": "Bladestorm",
       "variables": [
@@ -1062,7 +1062,7 @@
   },
   {
     "ability": {
-      "desc": "Janna shields her @NumAllies@ lowest-Health allies for @ModifiedShieldAmount@ for @Duration@ seconds. Shielded allies also gain @ShieldAD@ Attack Damage for that duration.",
+      "desc": "Shields the 2 / 3 / 4 lowest-health allies for 250 / 300 / 400 for 4 seconds. Shielded allies gain 20 / 30 / 60 bonus attack damage for the duration.",
       "icon": "ASSETS/Characters/Janna/HUD/Icons2D/Janna_Zephyr.dds",
       "name": "Eye of the Storm",
       "variables": [
@@ -1139,7 +1139,7 @@
   },
   {
     "ability": {
-      "desc": "Passive: Jhin always attacks @AttackSpeed@ times per second. He converts each 1% of bonus Attack Speed into @ADFromAttackSpeed@ Attack Damage.<br><br>Passive: Every fourth shot, Jhin deals @ModifiedPercent@ of his Attack Damage. (Total: @TooltipDamage@)",
+      "desc": "Passive: Attacks 0.85 / 0.9 / 1.2 times per second, regardless of bonus attack speed. Converts every 1% bonus attack speed he has into 0.8 bonus attack damage. Additionally, every fourth basic attack deals 444 / 475 / 1234% AD physical damage.",
       "icon": "ASSETS/Characters/Jhin/HUD/Icons2D/Jhin_P.dds",
       "name": "Whisper",
       "variables": [
@@ -1204,7 +1204,7 @@
   },
   {
     "ability": {
-      "desc": "Jax dodges all incoming attacks for @Duration@ seconds, then strikes all nearby enemies, dealing @ModifiedDamage@ magic damage and stunning them for @StunDuration@ seconds.",
+      "desc": "Jax Dodges all incoming basic attacks for 2 seconds, then strikes all nearby enemies, dealing 150 / 250 / 450 magic damage and stunning them for 1.5 seconds.",
       "icon": "ASSETS/Characters/Jax/HUD/Icons2D/Armsmaster_CoupDeGrace.dds",
       "name": "Counter Strike",
       "variables": [
@@ -1281,7 +1281,7 @@
   },
   {
     "ability": {
-      "desc": "Jinx fires a rocket at her target that explodes on impact, damaging all nearby enemies for @ModifiedDamage@ magic damage and stunning them for @StunDuration@ seconds.",
+      "desc": "Fires a rocket, dealing 150 / 250 / 450 magic damage to her target and all adjacent enemies and stuns them for 1.5 / 2 / 2.5 seconds.",
       "icon": "ASSETS/Characters/Jinx/HUD/Icons2D/Jinx_Q1.dds",
       "name": "Fishbones",
       "variables": [
@@ -1334,7 +1334,7 @@
   },
   {
     "ability": {
-      "desc": "Passive: Kalista's spears remain in her target, each one capable of dealing @ModifiedDamage@ of the target's maximum Health in magic damage when removed. She removes the spears when doing so would kill the target.",
+      "desc": "Passive: Spears remain in her target, each one capable of dealing 4 / 6 / 9% of target's maximum health magic damage when removed. She removes the spears when doing so would kill the target.",
       "icon": "ASSETS/Characters/Kalista/HUD/Icons2D/Kalista_E.dds",
       "name": "Rend",
       "variables": [
@@ -1375,7 +1375,7 @@
   },
   {
     "ability": {
-      "desc": "Kennen summons a storm around himself for @Duration@ seconds, calling down lightning bolts on all enemies in the area every @TickRate@ second and dealing @ModifiedDamage@ magic damage over the duration. Each enemy struck by 3 lightning bolts is stunned for @StunDuration@ seconds.",
+      "desc": "Summons a storm around him for 3 seconds, calling down lightning bolts on all enemies in the area every 0.5 seconds and dealing 300 / 450 / 1200 magic damage over the duration. Each enemy struck by 3 lightning bolts is stunned for 1.5 seconds.",
       "icon": "ASSETS/Characters/Kennen/HUD/Icons2D/Kennen_R.dds",
       "name": "Slicing Maelstrom",
       "variables": [
@@ -1452,7 +1452,7 @@
   },
   {
     "ability": {
-      "desc": "Wolf mauls Kindred's target, dealing @ModifiedDamage@ magic damage and reducing their healing by 50% for @GrievousWoundsDuration@ seconds. Meanwhile, Lamb leaps away from Kindred's target.",
+      "desc": "Wolf mauls their target, dealing 400 / 600 / 1000 magic damage and applying Grievous Wounds to their target for 5 seconds, while Lamb leaps away from their target.",
       "icon": "ASSETS/Characters/Kindred/HUD/Icons2D/Kindred_E.dds",
       "name": "Dance of Dread",
       "variables": [
@@ -1517,7 +1517,7 @@
   },
   {
     "ability": {
-      "desc": "Lee Sin punches his target, dealing @ModifiedDamage@ magic damage, knocking them back to the edge of the battlefield, and stunning them for @PrimaryStunDuration@ seconds. Any enemies the target collides with during the knockback receive half the damage and are stunned for @SecondaryStunDuration@ second.<br><br>If the target cannot be pushed back any further, they are knocked out of the battlefield instead, removing them from combat.<br><br>If the target is still alive after being punched, Lee Sin will dash to them.",
+      "desc": "Punches his target, dealing 200 / 375 / 1000 magic damage, knocking them back to the edge of the battlefield, and stunning them for 2 / 3 / 10 seconds. Any enemies the target collides with during the knockback are also dealt half the damage and stunned for 1 / 2 / 10 seconds. If the target cannot be pushed any further, they are knocked out of the battlefield instead, removing them from combat. If the target is still alive, he will dash to them. At 3-Star, his punch hits in an area around the primary target and knocks out any enemies directly hit regardless of their board position.",
       "icon": "ASSETS/Characters/LeeSin/HUD/Icons2D/BlindMonkR.dds",
       "name": "God Fist",
       "variables": [
@@ -1582,7 +1582,7 @@
   },
   {
     "ability": {
-      "desc": "Lillia casts a magical lullaby, causing @NumTargets@ waking enemies with the highest current Health to fall asleep for @Duration@ seconds. Enemies will awaken if they take @BreakDamage@ damage while sleeping, causing an additional @ModifiedDamage@ magic damage.",
+      "desc": "Casts a magical lullaby, causing 2 / 3 / 10 waking enemies with the highest current health to fall asleep for 3 / 4 / 8 seconds. Enemies will awaken if they take 500 / 750 / 1000 damage while sleeping, dealing 500 bonus magic damage to them.",
       "icon": "ASSETS/Characters/Lillia/HUD/Icons2D/Lillia_Icon_R.Lillia.dds",
       "name": "Lilting Lullaby",
       "variables": [
@@ -1659,7 +1659,7 @@
   },
   {
     "ability": {
-      "desc": "Lulu makes a low-Health ally giant, knocking up nearby enemies for @CCDuration@ second. Hugeified allies gain @ModifiedBonusHealth@ bonus Health for the rest of combat.",
+      "desc": "Makes a low health ally giant, granting them 400 / 600 / 950 bonus health for the rest of combat and knocking up enemies near them for 1 second. Casting the spell multiple times on the same target heals them by the same amount instead.",
       "icon": "ASSETS/Characters/Lulu/HUD/Icons2D/Lulu_GiantGrowth.dds",
       "name": "Wild Growth",
       "variables": [
@@ -1736,7 +1736,7 @@
   },
   {
     "ability": {
-      "desc": "Lux fires a sphere of light towards her farthest enemy. Enemies in the sphere's path take @ModifiedDamage@ magic damage and are stunned for @StunDuration@ seconds.",
+      "desc": "Fires a sphere of light towards the farthest enemy. Enemies in the sphere's path take 300 / 400 / 700 magic damage and are stunned for 1.5 / 2 / 3 seconds.",
       "icon": "ASSETS/Characters/Lux/HUD/Icons2D/LuxCrashingBlitz2.dds",
       "name": "Light Binding",
       "variables": [
@@ -1789,7 +1789,7 @@
   },
   {
     "ability": {
-      "desc": "Maokai smashes the ground, sending forward a shockwave that deals @ModifiedDamage@ magic damage to enemies hit and slows their Attack Speed by 50% for @ASSlowDuration@ seconds.",
+      "desc": "Smashes the ground sending forward a shockwave, dealing 225 / 350 / 550 magic damage and slowing their attack speed by 50% for 3 seconds.",
       "icon": "ASSETS/Characters/Maokai/HUD/Icons2D/Maokai_Q.dds",
       "name": "Bramble Smash",
       "variables": [
@@ -1842,7 +1842,7 @@
   },
   {
     "ability": {
-      "desc": "Morgana hallows the ground beneath a random target, dealing @ModifiedDamage@ magic damage to enemies over @Duration@ seconds and shredding 40% of their Magic Resistance while they remain inside. Morgana heals herself for @HealPercent@% of the damage dealt.",
+      "desc": "Hallows the ground beneath a random enemy, dealing 250 / 400 / 2000 magic damage to enemies within over 5 seconds and reducing enemies' attack damage and magic resistance by 40% while they remain inside.",
       "icon": "ASSETS/Characters/Morgana/HUD/Icons2D/FallenAngel_Purgatory.dds",
       "name": "Hallowed Ground",
       "variables": [
@@ -1907,7 +1907,7 @@
   },
   {
     "ability": {
-      "desc": "Nami traps the closest enemy in her bubble, dealing @ModifiedDamage@ magic damage and stunning them for @StunDuration@ seconds.",
+      "desc": "Traps the closest enemy in a bubble, dealing 225 / 325 / 450 magic damage and stunning them for 2.5 / 3 / 4 seconds.",
       "icon": "ASSETS/Characters/Nami/HUD/Icons2D/NamiQ.dds",
       "name": "Aqua Prison",
       "variables": [
@@ -1960,7 +1960,7 @@
   },
   {
     "ability": {
-      "desc": "Nidalee throws her javelin at her farthest enemy, dealing @ModifiedDamage@ magic damage plus @PercentPerHex*100@% more for each hex traveled.",
+      "desc": "Throws her javelin at the farthest enemy, dealing 225 / 350 / 600 magic damage. This damage is increased by 25% per hex traveled.",
       "icon": "ASSETS/Characters/Nidalee/HUD/Icons2D/Nidalee_Q1.dds",
       "name": "Javelin Toss",
       "variables": [
@@ -2013,7 +2013,7 @@
   },
   {
     "ability": {
-      "desc": "Pyke leaves a phantom at his location, then dashes behind the farthest enemy. After @StunDelay@ second, his phantom returns to Pyke, dealing @ModifiedDamage@ magic damage to all enemies it passes through and stunning them for @StunDuration@ seconds.",
+      "desc": "Leaves a phantom at his location, then dashes behind the farthest enemy. After 1 second, his phantom returns to him, dealing 100 / 175 / 275 magic damage to all enemies it passes through and stunning them for 2 / 2.5 / 4 seconds.",
       "icon": "ASSETS/Characters/Pyke/HUD/Icons2D/PykeE.dds",
       "name": "Phantom Undertow",
       "variables": [
@@ -2078,7 +2078,7 @@
   },
   {
     "ability": {
-      "desc": "Willump bites his target, dealing @ModifiedDamage@ magic damage. If Willump's target has less Health than he does before the bite, it deals an additional @DamageAmp*100@% damage and becomes true damage.",
+      "desc": "Willump bites his target, dealing 450 / 650 / 1800 magic damage. If the target has less current health than he does before the bite, it deals an additional 50% damage and deals true damage instead.",
       "icon": "ASSETS/Characters/Nunu/HUD/Icons2D/NunuQ.dds",
       "name": "Consume",
       "variables": [
@@ -2131,7 +2131,7 @@
   },
   {
     "ability": {
-      "desc": "Riven dashes and shields herself for @ModifiedShield@, then slashes forward dealing @ModifiedDamage@ magic damage to nearby enemies. <br><br>Every third cast, Riven leaps into the air and launches forward a large wave of energy that deals @ModifiedDamageFinal@ magic damage.",
+      "desc": "Dashes and shields herself for 175 / 250 / 750 health, then slashes forward dealing 175 / 250 / 750 magic damage to nearby enemies. Every third cast, leaps into the air and launches a wave of energy that deals 300 / 450 / 1350 magic damage.",
       "icon": "ASSETS/Characters/Riven/HUD/Icons2D/Riven_Buffer.dds",
       "name": "Sweeping Strikes",
       "variables": [
@@ -2220,7 +2220,7 @@
   },
   {
     "ability": {
-      "desc": "Sejuani throws a giant firecracker at the closest enemy that explodes after a @ExplosionDelay@-second delay. Enemies in the explosion are dealt @ModifiedDamage@ magic damage and are stunned for @StunDuration@ seconds.",
+      "desc": "Throws a giant firecracker at the enemy she is currently attacking, that explodes after a 2-second delay. Enemies within the detonation radius receive 100 / 200 / 800 magic damage and are stunned for 2.5 / 3 / 6 seconds.",
       "icon": "ASSETS/Characters/Sejuani/HUD/Icons2D/Sejuani_R.dds",
       "name": "Firecracker",
       "variables": [
@@ -2297,7 +2297,7 @@
   },
   {
     "ability": {
-      "desc": "Sett grabs his target and slams them forward, dealing @ModifiedPercentMaxHealthDamagePrimary@ of their maximum Health in magic damage to them, and @ModifiedPercentMaxHealthDamageSecondary@ of the slammed enemy's maximum Health to all other enemies in a large area.",
+      "desc": "Grabs his target and slams them forward, dealing 40 / 60 / 400% of target's maximum health magic damage to them, and 20 / 30 / 200%  of the slammed enemy's maximum health magic damage to all other enemies in a large area.",
       "icon": "ASSETS/Characters/Sett/HUD/Icons2D/Sett_R.Sett.dds",
       "name": "Showstopper",
       "variables": [
@@ -2350,7 +2350,7 @@
   },
   {
     "ability": {
-      "desc": "Shen dashes past his target, shielding himself against @ModifiedShield@ damage and taunting all adjacent enemies for @Duration@ seconds.",
+      "desc": "Dashes past his target, shielding himself for 500 / 800 / 4000 damage and taunting all adjacent enemies for 4 / 4 / 8 seconds.",
       "icon": "ASSETS/Characters/Shen/HUD/Icons2D/Shen_R.dds",
       "name": "Shadow Dash",
       "variables": [
@@ -2404,7 +2404,7 @@
   },
   {
     "ability": {
-      "desc": "Sylas lashes his chains out in a @HexDistance@-hex line, dealing @ModifiedDamage@ magic damage to enemies hit and increasing the mana cost of their next spell by 33%.",
+      "desc": "Lashes his chains out in a 3-hex line, dealing 250 / 400 / 700 / 1111 magic damage to enemies hit and increasing the cost of their next spell by 33%.",
       "icon": "ASSETS/Characters/Sylas/HUD/Icons2D/SylasQ.dds",
       "name": "Chain Lash",
       "variables": [
@@ -2469,7 +2469,7 @@
   },
   {
     "ability": {
-      "desc": "Tahm Kench takes @ModifiedDR@ reduced damage from all sources.",
+      "desc": "Passive: Takes 15 / 25 / 75 reduced post-mitigation damage from all sources..",
       "icon": "ASSETS/Characters/TahmKench/HUD/Icons2D/TahmKench_E.dds",
       "name": "Thick Skin",
       "variables": [
@@ -2510,7 +2510,7 @@
   },
   {
     "ability": {
-      "desc": "Talon stabs his target, striking them for @PercentOfAD*100@% of his Attack Damage plus @TooltipBonusDamage@ bonus physical damage (total: <scaleAD>@ModifiedDamage@ %i:scaleAD%</scaleAD>). If this kills them, Talon becomes unstoppable and untargetable while he leaps to the lowest Armor enemy.",
+      "desc": "Basic attacks the target with the least armor, dealing 85 / 135 / 400 (+ 240 / 250 / 275% AD) physical damage. If this kills them, he becomes unstoppable and untargetable while he leaps to the enemy who's done the most damage this round. This does not apply spell effects.",
       "icon": "ASSETS/Characters/Talon/HUD/Icons2D/TalonQ.dds",
       "name": "Truestrike",
       "variables": [
@@ -2563,7 +2563,7 @@
   },
   {
     "ability": {
-      "desc": "Teemo fires a dart at the enemy with the highest Attack Speed. The dart explodes into a cloud of spores on contact, poisoning nearby enemies. Poisoned enemies take @ModifiedDamage@ magic damage over @Duration@ seconds and are blinded for the duration.",
+      "desc": "Fires a dart at the enemy with the highest attack speed that explodes into a cloud of spores on contact, poisoning nearby enemies. Poisoned enemies take 250 / 400 / 900 magic damage over 2.5 / 3 / 4.5 seconds and are blinded for the duration.",
       "icon": "ASSETS/Characters/Teemo/HUD/Icons2D/Teemo_E.dds",
       "name": "Sporecloud Dart",
       "variables": [
@@ -2628,7 +2628,7 @@
   },
   {
     "ability": {
-      "desc": "Thresh throws his lantern to the lowest-Health ally, shielding them and nearby allies against @ModifiedShield@ damage for @Duration@ seconds.",
+      "desc": "Throws his lantern to the lowest-health ally, shielding them and nearby allies for 250 / 450 / 750 damage for 4 seconds.",
       "icon": "ASSETS/Characters/Thresh/HUD/Icons2D/Thresh_W.dds",
       "name": "Spectral Lantern",
       "variables": [
@@ -2693,7 +2693,7 @@
   },
   {
     "ability": {
-      "desc": "Lissandra hurls a dagger toward the enemy with the highest Attack Damage, dealing @ModifiedDamage@ magic damage to the first target it hits. After hitting its initial target or at its final destination, the dagger explodes dealing @ModifiedSecondaryDamage@ magic damage to nearby targets.",
+      "desc": "Hurls a dagger towards the enemy with the most attack damage, dealing 350 / 450 / 550 / 750 magic damage to the first target it hits. After hitting its initial target or at its final destination, the dagger explodes dealing 175 / 225 / 300 / 450 magic damage to nearby targets.",
       "icon": "ASSETS/Characters/Lissandra/HUD/Icons2D/Lissandra_Q.dds",
       "name": "1000 Daggers",
       "variables": [
@@ -2746,7 +2746,7 @@
   },
   {
     "ability": {
-      "desc": "Twisted Fate throws three cards in a cone that deal @ModifiedDamage@ magic damage to each enemy they pass through.",
+      "desc": "Throws three cards in a cone that deal 250 / 350 / 475 magic damage to each enemy they pass through.",
       "icon": "ASSETS/Characters/TwistedFate/HUD/Icons2D/Cardmaster_PowerCard.dds",
       "name": "Wild Cards",
       "variables": [
@@ -2787,7 +2787,7 @@
   },
   {
     "ability": {
-      "desc": "Passive: Vayne's third attack on a target deals @ModifiedDamage@ bonus true damage.",
+      "desc": "Passive: Basic attacks apply a Silver Bolts stack. The third stack consumes all stacks on the target to deal 50 / 90 / 130 bonus true damage.",
       "icon": "ASSETS/Characters/Vayne/HUD/Icons2D/Vayne_SilveredBolts.dds",
       "name": "Silver Bolts",
       "variables": [
@@ -2828,7 +2828,7 @@
   },
   {
     "ability": {
-      "desc": "Veigar blasts the enemy with the lowest Health, dealing @ModifiedDamage@ magic damage.<br><br>If this kills his target, Veigar permanently gains @APToAdd@ Spell Power.",
+      "desc": "Blasts the enemy with the lowest total-health, dealing 450 / 600 / 900 magic damage. If this kills the target, he permanently gains 1 / 1 / 2 spell power.",
       "icon": "ASSETS/Characters/Veigar/HUD/Icons2D/VeigarDarkMatter.dds",
       "name": "Dark Blossom",
       "variables": [
@@ -2881,7 +2881,7 @@
   },
   {
     "ability": {
-      "desc": "Wukong slams his target with his staff, dealing @ModifiedPercentAD@ of his Attack Damage as physical damage and stunning them for @Duration@ seconds. (Total Damage: @TooltipDamage@)",
+      "desc": "Slams his target with his staff, basic attacking for 225 / 265 / 280% AD physical damage and stunning them for 1.5 / 2 / 3 seconds. This does not apply spell effects.",
       "icon": "ASSETS/Characters/MonkeyKing/HUD/Icons2D/MonkeyKingCrushingBlow.dds",
       "name": "Crushing Blow",
       "variables": [
@@ -2934,7 +2934,7 @@
   },
   {
     "ability": {
-      "desc": "Xin Zhao sweeps around himself, dealing @ModifiedDamage@ of his Attack Damage (total: @TooltipDamage@) to nearby enemies and gaining @ArmorAndMR@ Armor and Magic Resist for the rest of combat.",
+      "desc": "Sweeps around him, dealing 330 / 340 / 350% AD physical damage to nearby enemies and gains 50 / 60 / 75 bonus armor and bonus magic resistance for the rest of combat.",
       "icon": "ASSETS/Characters/XinZhao/HUD/Icons2D/XinZhaoR.dds",
       "name": "Crescent Guard",
       "variables": [
@@ -3047,7 +3047,7 @@
   },
   {
     "ability": {
-      "desc": "Yasuo strikes forward two hexes, attacking for @ModifiedDamage@ of his Attack Damage (total: @TooltipDamage@). If he can't hit two targets from where he's standing, he'll first dash to a place where he can.",
+      "desc": "Strikes forward two hexes, basic attacking for 180 / 200 / 225% AD physical damage and applying on-hit effects. If he can't hit two targets from where he's standing, he'll first dash to a place where he can. This does not apply spell effects.",
       "icon": "ASSETS/Characters/Yasuo/HUD/Icons2D/Yasuo_Q3.dds",
       "name": "Striking Steel",
       "variables": [
@@ -3112,7 +3112,7 @@
   },
   {
     "ability": {
-      "desc": "Yone strikes along a path in front of him, dealing @ModifiedDamage@ magic damage split between all enemies hit. Enemies hit are marked for death, reducing their Armor and Magic Resist by @ShredPercent@%.<br><br>Yone's spell is then replaced with Unforgotten until there are no remaining enemies marked for death.<br><br>Unforgotten (20 mana): Yone dashes to the lowest-Health enemy that is marked for death, dealing @ModifiedUnforgottenDamage@ plus their missing health as magic damage.",
+      "desc": "Becomes untargetable and strikes along a path in front of him, dealing 800 / 1300 / 9999 magic damage split between all enemies hit. Enemies hit are marked for death, reducing their resistances by 40% for 8 seconds. Yone's spell is then replaced with Unforgotten until there are no remaining enemies marked for death. Unforgotten (20 mana): Dashes to the lowest health enemy that is marked for death, dealing 300 / 500 / 1500 magic damage, increased up to 100% based on target's missing health.",
       "icon": "ASSETS/Characters/Yone/HUD/Icons2D/YoneR.Yone.dds",
       "name": "Seal Fate",
       "variables": [
@@ -3201,7 +3201,7 @@
   },
   {
     "ability": {
-      "desc": "Yuumi dashes to the lowest-Health ally, healing them for @ModifiedHealing@ of their missing Health and granting them @ModifiedAS@ Attack Speed for @Duration@ seconds. She then repeats this on the farthest ally.",
+      "desc": "Dashes to the lowest-health ally, healing them for 30 / 45 / 75% of their missing health and granting them 30 / 40 / 60% bonus attack speed for 5 seconds. She then repeats this on the farthest ally.",
       "icon": "ASSETS/Characters/Yuumi/HUD/Icons2D/YuumiE.dds",
       "name": "Zoomies",
       "variables": [
@@ -3278,7 +3278,7 @@
   },
   {
     "ability": {
-      "desc": "Passive: Every third attack, Zed deals @ModifiedDamage@ bonus magic damage and steals @ADSteal*100@% of the target's current Attack Damage.",
+      "desc": "Passive:Every third attack deals 40 / 50 / 75 bonus magic damage and steals 25 / 30 / 35% of the target's current AD.",
       "icon": "ASSETS/Characters/Zed/HUD/Icons2D/shadowninja_Q.dds",
       "name": "Contempt For The Weak",
       "variables": [
@@ -3331,7 +3331,7 @@
   },
   {
     "ability": {
-      "desc": "Zilean places a protective Time Rune on the @NumTargets@ allies with the lowest Health other than himself. When they would die, they instead resurrect after @ReviveDelay@ seconds, returning to combat with @HealthAmountCalc@ Health and shedding all negative effects. After resurrecting, they have @ModifiedAS@ bonus Attack Speed for the rest of combat.",
+      "desc": "Places a protective Time Rune on the 2 / 3 / 10 allies with the lowest current health (excluding himself). When they would die, they instead resurrect after 3.5 / 3 / 1 seconds, returning to combat with 350 / 500 / 3000 health and shedding all negative effects. After resurrecting, they gain 50 / 50 / 500% bonus attack speed for the rest of combat.",
       "icon": "ASSETS/Characters/Zilean/HUD/Icons2D/Zilean_E.dds",
       "name": "Rewind Fate",
       "variables": [
@@ -3408,7 +3408,7 @@
   },
   {
     "ability": {
-      "desc": "Vi's attack blasts through her target, dealing @ModifiedDamage@ magic damage to all enemies in a cone and reducing their Armor by @ArmorReduction*100@% for @Duration@ seconds.",
+      "desc": "Blasts through her target, dealing 250 / 400 / 800 magic damage to all enemies in a cone and reducing their armor by 40 / 60 / 80% for 8 seconds.",
       "icon": "ASSETS/Characters/Vi/HUD/Icons2D/ViE2.dds",
       "name": "Denting Blow",
       "variables": [
@@ -3473,7 +3473,7 @@
   },
   {
     "ability": {
-      "desc": "Jarvan IV throws his standard near the farthest enemy and pulls himself toward it with his lance, dealing @DamageCalc@ magic damage to enemies he passes through, knocking them up and stunning them for @StunDuration@ second.",
+      "desc": "Throws his standard near the farthest enemy then pulls himself toward them with his lance, dealing 175 / 250 / 750  magic damage to enemies he passes through, knocking them up and stunning them for 1 second.",
       "icon": "ASSETS/Characters/JarvanIV/HUD/Icons2D/JarvanIV_DragonStrike.dds",
       "name": "Dragon Strike",
       "variables": [
@@ -3526,7 +3526,7 @@
   },
   {
     "ability": {
-      "desc": "Kayn dashes toward his target then slashes all adjacent enemies, dealing @ModifiedDamage@ magic damage and increasing the mana cost of their next spell by 33%. If the slash hits exactly one target, Kayn immediately casts again.<br><br>As Rhaast: Reaping Slash heals Kayn for @PercentRestored*100@% of the damage it deals.<br><br>As Shadow Assassin: Reaping Slash deals an extra @ShadowDamagePercent@% damage for the first @ShadowDuration@ seconds of combat.",
+      "desc": "Dashes towards his target then slashes all adjacent enemies, dealing 375 / 575 / 6666 magic damage and increasing the cost of their next spell by 33%. If the slash hits exactly one target, he immediately casts again. RHAAST: Heals for 50% of the damage dealt by the spell. SHADOW ASSASSIN: Deals an additional 50% damage for the first 10 seconds of combat.",
       "icon": "ASSETS/Characters/Kayn/HUD/Icons2D/Kayn_Q_Primary.dds",
       "name": "Reaping Slash",
       "variables": [
@@ -3603,7 +3603,7 @@
   },
   {
     "ability": {
-      "desc": "Katarina channels for @Duration@ seconds, throwing knives at @NumberOfTargets@ nearby enemies, dealing @ModifiedDamage@ magic damage over the duration and reducing healing by 50% to her targets for @GrievousWoundsDuration@ seconds.",
+      "desc": "Channels for 2.5 seconds, throwing knives at 4 / 6 / 8 nearby enemies, dealing 750 / 900 / 1600 magic damage over the duration and applying Grievous Wounds on them for 5 seconds.",
       "icon": "ASSETS/Characters/Katarina/HUD/Icons2D/Katarina_R.dds",
       "name": "Death Lotus",
       "variables": [
@@ -3705,7 +3705,7 @@
   },
   {
     "ability": {
-      "desc": "Ezreal fires a barrage toward the enemy with the highest Attack Speed, healing allies it passes through for @ModifiedHeal@ and granting them 50% Attack Speed, and damaging enemies it passes through for @ModifiedDamage@ magic damage and slowing their Attack Speed by 50% for @Duration@ seconds.",
+      "desc": "Fires a barrage toward the enemy with the highest attack speed, healing allies it passes through for 250 / 450 / 9999 and granting them and 50% bonus attack speed for 5 seconds, while dealing 250 / 450 / 9999 magic damage to enemies and slowing their attack speed by 50% for 5 seconds.",
       "icon": "ASSETS/Characters/Ezreal/HUD/Icons2D/Ezreal_R.dds",
       "name": "Flux Barrage",
       "variables": [
@@ -3782,7 +3782,7 @@
   },
   {
     "ability": {
-      "desc": "Warwick gains @ModifiedAS@ Attack Speed, @LifestealPercent@% Lifesteal, and moves faster for the rest of combat. <br><br>While in this state, if Warwick scores a takedown he howls, granting himself and all allies who share a Trait with him an additional @AllyAS*100@% Attack Speed for @AllyASDuration@ seconds.",
+      "desc": "Gains 135 / 150 / 500% bonus attack speed, 40 / 40 / 200% lifesteal, and moves faster for the rest of combat. While in this state, if he scores a takedown he howls, granting himself and allies who share a trait with him 60 / 75 / 200% bonus attack speed for 3 seconds.",
       "icon": "ASSETS/Characters/Warwick/HUD/Icons2D/WarwickP.dds",
       "name": "Primal Hunger",
       "variables": [
