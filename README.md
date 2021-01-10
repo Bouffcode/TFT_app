@@ -1,4 +1,4 @@
-# Synergy Builder & Support App
+# Synergy Builder & Support App (Riot's Teamfight Tactics)
 
 This is a Flutter/Dartlang based project, aimed to offer a minimalistic but sophisticated android (primarily) apk addressed to TFT players with easy to use synergy builder, designed to be exploited on the go.
 
