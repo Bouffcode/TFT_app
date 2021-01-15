@@ -72,8 +72,21 @@ void itemJsonChampions() async { //Fonction pour wait le decode du Json, ensuite
     
     return Scaffold(
       appBar: AppBar(
-  
         title: Text(widget.title),
+      ),
+      drawer: Drawer(
+        child: ListView(
+          children: [
+            ListTile(
+              title: Text('Champions'),
+              onTap: itemJsonChampions,
+            ),
+            ListTile(
+              title: Text('Items'),
+              onTap: itemJson,
+            ),
+          ],
+        ),
       ),
       body: Center(
         child: Container(
