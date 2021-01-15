@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:tft_app/screens/champions.dart';
 import 'dart:convert';
 import 'package:tft_app/screens/items_screen.dart';
+import 'package:tft_app/screens/tips.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
     
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: TipsScreen()
+      // MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }

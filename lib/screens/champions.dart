@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class ChampionsPage extends StatelessWidget {
   final List data; // le JSON est sous forme de liste et non une Map
   ChampionsPage({this.data});

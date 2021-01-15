@@ -29,6 +29,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   http: ^0.12.2
+  gradient_text: ^1.0.2
 
 dev_dependencies:
   flutter_test:
@@ -50,6 +51,7 @@ flutter:
     - assets/items.json
     - assets/items/
     - assets/champions/
+    - assets/tips/
     - assets/champions.json
 
 
