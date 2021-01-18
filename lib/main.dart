@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:tft_app/screens/champions.dart';
 import 'dart:convert';
 import 'package:tft_app/screens/items_screen.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+import 'package:tft_app/tfticons_icons.dart';
 
 void main() {
   runApp(MyApp());
@@ -90,11 +92,7 @@ void itemJsonChampions() async { //Fonction pour wait le decode du Json, ensuite
       ),
       body: Center(
         child: Container(
-          child: RaisedButton(
-            color: Colors.grey,
-            onPressed: itemJsonChampions,
-            child: Text('champions')
-          ),
+          child: Icon(Tfticons.mage)
         )
       ),
       floatingActionButton: FloatingActionButton(
