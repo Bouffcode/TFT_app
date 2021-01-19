@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:tft_app/screens/champions.dart';
 import 'dart:convert';
 import 'package:tft_app/screens/items_screen.dart';
-import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:tft_app/tfticons_icons.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 void main() {
   runApp(MyApp());
@@ -36,6 +36,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  final String iconPath = "assets/icons/adept.svg";
 
 Future<String>_loadFromAsset() async { //Fonction jebtha men Stacksoverflow pour ouvrir un JSON local, je comprend pas/jveux pas comprendre
   return await DefaultAssetBundle.of(context).loadString("assets/items.json");
@@ -71,7 +72,6 @@ void itemJsonChampions() async { //Fonction pour wait le decode du Json, ensuite
 
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
@@ -92,7 +92,11 @@ void itemJsonChampions() async { //Fonction pour wait le decode du Json, ensuite
       ),
       body: Center(
         child: Container(
-          child: Icon(Tfticons.mage)
+          child: LimitedBox(
+            child: SvgPicture.asset('iconPath', color: Colors.black, width: 100, height: 100,),
+            maxHeight: 100,
+            maxWidth: 100,
+          )
         )
       ),
       floatingActionButton: FloatingActionButton(
